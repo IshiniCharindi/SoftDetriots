@@ -90,7 +90,7 @@ export default function Slider() {
                                     <h1 className="title max-[350px]:text-xl text-2xl sm:text-3xl md:text-4xl lg:text-4xl min-[1900px]:text-6xl mb-5 ">{company.banner[index].heading}</h1>
                                     <h3 className=" description text-center max-[350px]:text-[8px] text-[10px] md:text-xs xl:text-sm min-[1900px]:text-2xl">{company.banner[index].description}</h3>
                                     <Link to="/shop">
-                                        <button className="bg-slate-400 m-8 max-w-[300px] max-[350px]:text-xs text-sm md:text-base min-[1900px]:text-lg">
+                                        <button className=" bg-slate-400 m-8 max-w-[300px] max-[350px]:text-xs text-sm md:text-base min-[1900px]:text-lg">
                                             DISCOVER MORE
                                         </button>
                                     </Link>
