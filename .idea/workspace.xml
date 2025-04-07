@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="933e5ba8-aa5e-416b-8331-da8fa04a761a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,18 +53,18 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "G:\\projects\\SoftDetriots\\SoftDetriots\\softdetroits\\node_modules\\typescript\\lib",
+    "settings.editor.selected.configurable": "configurable.tailwindcss",
+    "ts.external.directory.path": "F:\\languages\\Git Repos\\SoftDetriots\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\languages\Git Repos\SoftDetriots" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\Styles" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\Models" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\redux" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\Components" />
-      <recent name="F:\languages\Git Repos\SoftDetriots\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\languages\Git Repos\SoftDetriots\src\assets\images" />
@@ -93,11 +96,15 @@
       <workItem from="1744016831727" duration="4588000" />
       <workItem from="1744023854994" duration="2722000" />
       <workItem from="1744029245775" duration="1036000" />
-      <workItem from="1744031003946" duration="379000" />
+      <workItem from="1744031003946" duration="5059000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
