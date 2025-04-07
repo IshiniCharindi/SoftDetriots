@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="933e5ba8-aa5e-416b-8331-da8fa04a761a" name="Changes" comment="" />
+    <list default="true" id="933e5ba8-aa5e-416b-8331-da8fa04a761a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Middleware/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/react.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/home.jsx" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +28,20 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -32,27 +55,41 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Dev-02",
-    "last_opened_file_path": "G:/projects/SoftDetriots/SoftDetriots/softdetroits/src/Styles",
+    "git-widget-placeholder": "Dev-01",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/languages/Git Repos/SoftDetriots",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "F:\\languages\\Git Repos\\SoftDetriots\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\projects\SoftDetriots\SoftDetriots\softdetroits\src\Styles" />
-      <recent name="G:\projects\SoftDetriots\SoftDetriots\softdetroits\src\Services" />
-      <recent name="G:\projects\SoftDetriots\SoftDetriots\softdetroits\src\Screens" />
-      <recent name="G:\projects\SoftDetriots\SoftDetriots\softdetroits\src\redux" />
-      <recent name="G:\projects\SoftDetriots\SoftDetriots\softdetroits\src\Models" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Styles" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Models" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\redux" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Components" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\assets\images" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\node_modules" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\node_modules\.bin" />
       <recent name="G:\projects\SoftDetriots\SoftDetriots\SoftDetoits" />
     </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,6 +101,12 @@
       <updated>1743662478808</updated>
       <workItem from="1743662480226" duration="1928000" />
       <workItem from="1743874585811" duration="3090000" />
+      <workItem from="1744016079516" duration="360000" />
+      <workItem from="1744016467400" duration="336000" />
+      <workItem from="1744016831727" duration="4588000" />
+      <workItem from="1744023854994" duration="2722000" />
+      <workItem from="1744029245775" duration="1036000" />
+      <workItem from="1744031003946" duration="379000" />
     </task>
     <servers />
   </component>
