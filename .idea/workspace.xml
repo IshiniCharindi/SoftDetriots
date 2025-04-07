@@ -6,11 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="933e5ba8-aa5e-416b-8331-da8fa04a761a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Middleware/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/react.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/home.jsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +27,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,19 +63,21 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "F:\\languages\\Git Repos\\SoftDetriots\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\languages\Git Repos\SoftDetriots" />
-      <recent name="G:\projects\SoftDetriots\SoftDetriots\softdetroits\src\Styles" />
-      <recent name="G:\projects\SoftDetriots\SoftDetriots\softdetroits\src\Services" />
-      <recent name="G:\projects\SoftDetriots\SoftDetriots\softdetroits\src\Screens" />
-      <recent name="G:\projects\SoftDetriots\SoftDetriots\softdetroits\src\redux" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Styles" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Models" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\redux" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Components" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\assets\images" />
       <recent name="F:\languages\Git Repos\SoftDetriots\node_modules" />
       <recent name="F:\languages\Git Repos\SoftDetriots\node_modules\.bin" />
       <recent name="G:\projects\SoftDetriots\SoftDetriots\SoftDetoits" />
@@ -87,7 +104,9 @@
       <workItem from="1744016079516" duration="360000" />
       <workItem from="1744016467400" duration="336000" />
       <workItem from="1744016831727" duration="4588000" />
-      <workItem from="1744023854994" duration="811000" />
+      <workItem from="1744023854994" duration="2722000" />
+      <workItem from="1744029245775" duration="1036000" />
+      <workItem from="1744031003946" duration="379000" />
     </task>
     <servers />
   </component>
