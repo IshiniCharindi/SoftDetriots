@@ -70,14 +70,6 @@
     align-items: center;
 }
 
-.slider .center-line * {
-    font-weight: 100;
-}
-
-.slider .center-line .title {
-    /*font-size: calc(30px + 1.8vw);*/
-    text-align: center;
-}
 
 .slider .arrow {
     min-width: calc(30px + 1.8vw);
