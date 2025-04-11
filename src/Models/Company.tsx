@@ -69,7 +69,7 @@ const company: Company = {
     },
     banner: [
         {
-            imageLink: '../../src/assets/images/banner02.jpg',
+            imageLink: '../../src/assets/images/banner03.jpg',
             heading: 'Global Trade Expertise',
             description: 'A trusted name in the export-import industry, bridging global markets with quality products.'
         },
@@ -79,7 +79,7 @@ const company: Company = {
             description: 'Ensuring the highest standards in international trade and logistics.'
         },
         {
-            imageLink: '../../src/assets/images/banner03.jpg',
+            imageLink: '../../src/assets/images/banner02.jpg',
             heading: 'Reliable Services',
             description: 'Empowering businesses with top-tier export-import services worldwide.'
         }

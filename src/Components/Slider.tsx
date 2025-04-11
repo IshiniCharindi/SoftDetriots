@@ -55,7 +55,7 @@ export default function Slider() {
 
 
     return (
-        <div className='slider min-h-[70vh]' id='slider'>
+        <div className='slider min-h-[91vh]' id='slider'>
             <div className="background-blur"></div>
             <div className="image-list-slider" id='image-list-slider'>
                 {
