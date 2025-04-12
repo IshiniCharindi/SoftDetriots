@@ -1,5 +1,16 @@
 @import "tailwindcss";
 
+:root {
+    --color-primary: #1b388b; /* Tailwind blue-500 */
+    --color-secondary: #030713; /* Tailwind green-500 */
+    --color-accent: #f43f5e; /* Tailwind rose-500 */
+    --color-bg: #f5f5f5;
+    --color-text: #1f2937;
+    --color-dark: #0a1810;
+    --color-light: rgba(11, 138, 68, 0.73);
+    --color-admin: #101a33;
+
+}
 
 body{
     margin: 0;

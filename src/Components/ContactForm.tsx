@@ -25,7 +25,7 @@ const ContactForm = () => {
             <div className="max-w-6xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
                     {/* Left Section */}
-                    <div className="bg-gradient-to-b from-blue-900 to-gray-950 p-10 text-white flex flex-col">
+                    <div className="bg-gradient-to-b from-[var(--color-primary)] to-[var(--color-secondary)] p-10 text-white flex flex-col">
                         <div>
                             <h4 className="text-xs uppercase tracking-widest opacity-80">Get in Touch</h4>
                             <h1 className="text-3xl md:text-4xl font-bold mt-4 leading-tight">
@@ -205,7 +205,7 @@ const ContactForm = () => {
 
                             <button
                                 type="submit"
-                                className="w-full bg-gradient-to-b from-blue-900 to-gray-950 text-white font-semibold py-3 px-4 rounded-lg hover:opacity-90 transition-all shadow-md hover:shadow-lg"
+                                className="w-full bg-gradient-to-b from-[var(--color-primary)] to-[var(--color-secondary)] text-white font-semibold py-3 px-4 rounded-lg hover:opacity-90 transition-all shadow-md hover:shadow-lg"
                             >
                                 Send Your Message
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 inline ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">

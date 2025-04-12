@@ -69,12 +69,12 @@ const company: Company = {
     },
     banner: [
         {
-            imageLink: '../../src/assets/images/banner03.jpg',
+            imageLink: '../../src/assets/images/banner01.jpg',
             heading: 'Global Trade Expertise',
             description: 'A trusted name in the export-import industry, bridging global markets with quality products.'
         },
         {
-            imageLink: '../../src/assets/images/banner01.jpg',
+            imageLink: '../../src/assets/images/banner03.jpg',
             heading: 'Product Specialization',
             description: 'Ensuring the highest standards in international trade and logistics.'
         },
