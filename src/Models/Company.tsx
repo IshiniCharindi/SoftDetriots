@@ -87,7 +87,7 @@ const company: Company = {
 //     about: [
 //         {
 //             backgroundImage: 'images/AboutImage.jpg',
-//             heading: 'About Us',
+//             heading: 'BaseHomeAbout Us',
 //             para: ``
 //         },
 //         {
@@ -161,7 +161,7 @@ const company: Company = {
 //         {
 //             heading: 'Useful links',
 //             para1: 'Store',
-//             para2: 'About Us',
+//             para2: 'BaseHomeAbout Us',
 //             para3: 'Contact Us',
 //             para4: '',
 //             para5: '',

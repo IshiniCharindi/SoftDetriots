@@ -1,5 +1,9 @@
 import BaseHome from "./Screens/BaseHome.tsx";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
+import "aos/dist/aos.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+
 
 function App() {
 

@@ -1,6 +1,6 @@
 import CountUp from "react-countup";
 
-const Service = () => {
+const BaseHomeAbout = () => {
   return (
     <section className="container h-12 md:h-32">
       <div className="mx-auto my-4 grid w-full -translate-y-10 grid-cols-4 divide-x divide-slate-700 bg-white p-2 shadow-lg dark:bg-gray-800 dark:text-white/70 md:max-w-[800px] md:-translate-y-16 md:p-8">
@@ -41,4 +41,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default BaseHomeAbout;
