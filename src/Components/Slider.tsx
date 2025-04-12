@@ -77,7 +77,7 @@ export default function Slider() {
             <div className="container slider-content relative" style={{height: '100%'}}>
 
                 <div className="center-line">
-                    <div className="arrow" onClick={() => updateIndex(false)}><ArrowLeftOutlined style={{fontSize: '24px'}}/></div>
+                    <div className="arrow !bg-[var(--color-primary)]/40" onClick={() => updateIndex(false)}><ArrowLeftOutlined style={{fontSize: '24px'}}/></div>
 
                     <div className="wrapper">
                         <AnimatePresence>
@@ -90,7 +90,7 @@ export default function Slider() {
                                     <h1 className="font-bold title max-[350px]:text-xl text-2xl sm:text-3xl md:text-4xl lg:text-4xl min-[1900px]:text-6xl mb-5 ">{company.banner[index].heading}</h1>
                                     <h3 className=" description text-center max-[350px]:text-[8px] text-[10px] md:text-base min-[1900px]:text-2xl">{company.banner[index].description}</h3>
                                     <Link to="/shop">
-                                        <button className="mx-auto px-5 py-4 rounded-xl  text-center !bg-slate-400 m-8 max-w-[300px] max-[350px]:text-xs text-sm md:text-base min-[1900px]:text-lg">
+                                        <button className="mx-auto px-5 py-4 rounded-xl  text-center !bg-[var(--color-primary)] m-8 max-w-[300px] max-[350px]:text-xs text-sm md:text-base min-[1900px]:text-lg">
                                             DISCOVER MORE
                                         </button>
                                     </Link>
@@ -100,7 +100,7 @@ export default function Slider() {
 
                     </div>
 
-                    <div className="arrow" onClick={() => updateIndex(true)}><ArrowRightOutlined style={{fontSize: '24px'}}/></div>
+                    <div className="arrow !bg-[var(--color-primary)]/40" onClick={() => updateIndex(true)}><ArrowRightOutlined style={{fontSize: '24px'}}/></div>
 
                 </div>
 

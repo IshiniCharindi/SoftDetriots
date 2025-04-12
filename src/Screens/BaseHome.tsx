@@ -14,8 +14,6 @@ const BaseHome = () => {
             <Slider/>
             <Service/>
             <BannerDetails reverse={true} img={Banner1} />
-            <FeaturesSection/>
-            <ContactForm/>
             <Footer/>
         </div>
     );

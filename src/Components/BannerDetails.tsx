@@ -1,11 +1,8 @@
-import React from "react";
-import Banner from "../../assets/blog2.jpg";
-
 const BannerDetails = ({ reverse, img }) => {
   return (
-    <section className="mx-5">
+    <section>
       <main className="bg-slate-100 dark:bg-slate-900 dark:text-white">
-        <section className="mx-5 container flex flex-col items-center justify-center py-10 md:h-[500px] ">
+        <section className="mx-10 container flex flex-col items-center justify-center py-10 md:h-[500px] ">
           <div className="grid grid-cols-1 items-center gap-4  md:grid-cols-2">
             <div
               data-aos="fade-right"
@@ -35,7 +32,7 @@ const BannerDetails = ({ reverse, img }) => {
                 </ul>
               </div>
               <div className="space-x-4">
-                <button className="rounded-md border-2 border-primary bg-primary px-4 py-2 text-sm text-white transition-colors duration-300 hover:bg-primary/80">
+                <button className="rounded-md border-1  hover:cursor-pointer bg-blue-950/10 px-4 py-2 text-sm text-[var(--color-primary)] transition-colors duration-300 hover:bg-primary/80">
                   Get Started
                 </button>
               </div>
@@ -49,7 +46,7 @@ const BannerDetails = ({ reverse, img }) => {
               <img
                 src={img}
                 alt="No image"
-                className="max-auto w-full hover:drop-shadow-md"
+                className="max-auto w-full hover:drop-shadow-md h-[400px]"
               />
             </div>
           </div>
