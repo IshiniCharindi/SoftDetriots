@@ -13,6 +13,9 @@
       <change beforePath="$PROJECT_DIR$/src/Components/Services/Swipe.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Styles/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/slider.css" afterDir="false" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,6 +123,9 @@
 =======
       <workItem from="1744481050080" duration="21267000" />
       <workItem from="1744576626759" duration="973000" />
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     </task>
     <servers />
