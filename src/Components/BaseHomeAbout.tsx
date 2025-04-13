@@ -29,8 +29,6 @@ const BaseHomeAbout = () => {
               end={160527.012}
               duration={2.75}
               separator=" "
-              // decimals={4}
-              // decimal=","
               suffix="+"
             />
           </h1>
