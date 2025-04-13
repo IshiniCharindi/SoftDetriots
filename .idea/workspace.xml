@@ -8,9 +8,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/OurStory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/OurStory.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Services/Service.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Services/Service.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/AboutUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/AboutUs.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Screens/BaseHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/BaseHome.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,33 +47,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Dev-01&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/languages/Git Repos/SoftDetriots/src/assets/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.tailwindcss&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;F:\\languages\\Git Repos\\SoftDetriots\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Dev-01",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/languages/Git Repos/SoftDetriots/src/Styles",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.tailwindcss",
+    "ts.external.directory.path": "F:\\languages\\Git Repos\\SoftDetriots\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Styles" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\assets\images" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\Components" />
-      <recent name="F:\languages\Git Repos\SoftDetriots\src\Styles" />
       <recent name="F:\languages\Git Repos\SoftDetriots" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\Models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Components" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\assets\images" />
       <recent name="F:\languages\Git Repos\SoftDetriots\node_modules" />
       <recent name="F:\languages\Git Repos\SoftDetriots\node_modules\.bin" />
@@ -113,7 +117,7 @@
       <workItem from="1744448741843" duration="331000" />
       <workItem from="1744449788190" duration="905000" />
       <workItem from="1744450824435" duration="3620000" />
-      <workItem from="1744481050080" duration="12854000" />
+      <workItem from="1744481050080" duration="15744000" />
     </task>
     <servers />
   </component>
