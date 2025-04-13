@@ -3,7 +3,6 @@ import Footer from "../Components/Footer.tsx";
 import NavBar from "../Components/NavBar.tsx";
 import BaseHomeAbout from "../Components/BaseHomeAbout.tsx";
 import BannerDetails from "../Components/BannerDetails.tsx";
-import Swipe from "../Components/Services/Swipe.tsx";
 import Service from "../Components/Services/Service.tsx";
 import {useEffect} from "react";
 import AOS from "aos";

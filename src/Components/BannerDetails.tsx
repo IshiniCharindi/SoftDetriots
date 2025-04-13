@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-const BannerDetails = ({ reverse, img }) => {
-=======
 import img from "../assets/images/blog1.jpg";
 
 interface BannerDetailsProps {
@@ -8,7 +5,6 @@ interface BannerDetailsProps {
 }
 
 const BannerDetails = ({ reverse}: BannerDetailsProps) => {
->>>>>>> Stashed changes
   return (
       <section className="bg-slate-100 dark:bg-slate-900 dark:text-white">
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
