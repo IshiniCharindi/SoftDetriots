@@ -52,7 +52,6 @@ const NavBar = () => {
                     {/* Desktop menu */}
                     <div className="hidden lg:flex space-x-10 text-white">
                         <Link to={"/"}>Home</Link>
-                        <Link to={"/shop"}>Shop</Link>
                         <Link to={"/Aboutus"}>About Us</Link>
                         <Link to={"/contactus"}>Contact US</Link>
 
@@ -66,7 +65,6 @@ const NavBar = () => {
                 <div className="lg:hidden px-4 py-6 bg-[var(--color-secondary)] text-white space-y-4 shadow-md">
                     <div className="flex flex-col space-y-4 items-center justify-center">
                         <Link to={"/"}>Home</Link>
-                        <Link to={"/shop"}>Shop</Link>
                         <Link to={"/Aboutus"}>About Us</Link>
                         <Link to={"/contactus"}>Contact US</Link>
                     </div>

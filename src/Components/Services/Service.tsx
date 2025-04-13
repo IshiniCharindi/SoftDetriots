@@ -1,14 +1,14 @@
-import Img1 from "../../assets/images/blog1.jpg";
-import Img2 from "../../assets/images/blog2.jpg";
-import Img3 from "../../assets/images/blog3.jpg";
+import Img1 from "../../assets/images/WebDesign.jpg";
+import Img2 from "../../assets/images/AppDevelopment.jpg";
+import Img3 from "../../assets/images/DesktopDevelopment.jpg";
 import "aos/dist/aos.css";
 
 const Service = () => {
   return (
-    <main data-aos="fade-up" data-aos-offset="200">
-      <section className="container mb-10 py-8 mx-auto">
+    <main data-aos="fade-up" data-aos-offset="200" className="mt-20">
+      <section className="container mb-20 mx-auto">
         <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
-          Our Latest Blogs
+          Our Services
         </h1>
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
           <div
@@ -28,7 +28,7 @@ const Service = () => {
             </div>
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold">
-                How to grow your business. How to grow your business.
+               Web Development
               </h1>
               <p className="line-clamp-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
@@ -53,7 +53,7 @@ const Service = () => {
             </div>
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold">
-                How to grow your business. How to grow your business.
+                Application Development
               </h1>
               <p className="line-clamp-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. amet
@@ -78,7 +78,7 @@ const Service = () => {
             </div>
             <div className="space-y-3 py-3">
               <h1 className="line-clamp-1 text-xl font-bold">
-                How to grow your business. How to grow your business.
+                Desktop Software Development
               </h1>
               <p className="line-clamp-2">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. amet

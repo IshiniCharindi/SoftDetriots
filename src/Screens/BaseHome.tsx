@@ -8,6 +8,8 @@ import Swipe from "../Components/Services/Swipe.tsx";
 import Service from "../Components/Services/Service.tsx";
 import {useEffect} from "react";
 import AOS from "aos";
+import BaseHomeMiddleBanner from "../Components/BaseHomeMiddleBanner.tsx";
+import SpecializationSection from "../Components/SpecializationSection.tsx";
 
 const BaseHome = () => {
     useEffect(() => {
@@ -24,10 +26,10 @@ const BaseHome = () => {
             <NavBar/>
             <Slider/>
             <BaseHomeAbout/>
-            <Service/>
-            {/*<Swipe/>*/}
-
             <BannerDetails reverse={true} img={Banner1} />
+            <Service/>
+            <BaseHomeMiddleBanner/>
+            <SpecializationSection/>
             <Footer/>
         </div>
     );
