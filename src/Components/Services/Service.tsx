@@ -1,7 +1,6 @@
 import Img1 from "../../assets/images/WebDesign.jpg";
 import Img2 from "../../assets/images/AppDevelopment.jpg";
 import Img3 from "../../assets/images/DesktopDevelopment.jpg";
-import "aos/dist/aos.css";
 
 const Service = () => {
   return (

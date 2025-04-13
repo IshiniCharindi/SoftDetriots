@@ -1,10 +1,19 @@
+<<<<<<< Updated upstream
 const BannerDetails = ({ reverse, img }) => {
+=======
+import img from "../assets/images/blog1.jpg";
+
+interface BannerDetailsProps {
+  reverse: boolean;
+}
+
+const BannerDetails = ({ reverse}: BannerDetailsProps) => {
+>>>>>>> Stashed changes
   return (
       <section className="bg-slate-100 dark:bg-slate-900 dark:text-white">
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-center py-8 md:min-h-[500px] md:py-10">
             <div className="grid w-full grid-cols-1 items-center gap-6 md:grid-cols-2 md:gap-8">
-              {/* Text Content */}
               <div
                   data-aos="fade-right"
                   data-aos-duration="400"
@@ -42,7 +51,6 @@ const BannerDetails = ({ reverse, img }) => {
                 </div>
               </div>
 
-              {/* Image */}
               <div
                   data-aos="fade-left"
                   data-aos-duration="400"
