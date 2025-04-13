@@ -9,7 +9,7 @@ import AboutUs from "./Screens/AboutUs.tsx";
 function App() {
 
   return (
-      <BrowserRouter>
+      <BrowserRouter basename="/SoftDetriots">
           <Routes>
               <Route element={<BaseHome/>} path='/'/>
               <Route element={<AboutUs/>} path='/aboutus'/>
