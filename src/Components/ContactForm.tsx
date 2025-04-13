@@ -10,18 +10,26 @@ const ContactForm = () => {
         acceptedPolicy: false,
     });
 
-    const handleChange = (e) => {
-        const { name, value, type, checked } = e.target;
-        setFormData({ ...formData, [name]: type === "checkbox" ? checked : value });
+    const handleChange = (
+        e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
+    ) => {
+        const target = e.target as HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement;
+        const { name, value, type } = target;
+        const checked = (target as HTMLInputElement).checked;
+
+        setFormData({
+            ...formData,
+            [name]: type === "checkbox" ? checked : value,
+        });
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
         console.log("Form Data:", formData);
     };
 
     return (
-        <div className="bg-gray-50 text-gray-800 px-6 py-16 md:px-12 lg:px-24">
+        <div className="bg-gray-50 text-gray-800 px-6 py-16 md:px-12 lg:px-24 mt-20">
             <div className="max-w-6xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
                     {/* Left Section */}
@@ -172,15 +180,14 @@ const ContactForm = () => {
                             </div>
 
                             <div>
-                                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Your Message</label>
+                                <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-1">Your
+                                    Message</label>
                                 <textarea
-                                    id="message"
-                                    name="message"
-                                    placeholder="How can we help you?"
+                                    rows={5}
                                     value={formData.message}
                                     onChange={handleChange}
-                                    rows="5"
                                     className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
+                                    required
                                 ></textarea>
                             </div>
 

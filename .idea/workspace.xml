@@ -11,6 +11,7 @@
       <change beforePath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/OurStory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/OurStory.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Services/Service.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Services/Service.tsx" afterDir="false" />
@@ -123,7 +124,7 @@
       <workItem from="1744448741843" duration="331000" />
       <workItem from="1744449788190" duration="905000" />
       <workItem from="1744450824435" duration="3620000" />
-      <workItem from="1744481050080" duration="16960000" />
+      <workItem from="1744481050080" duration="18971000" />
     </task>
     <servers />
   </component>

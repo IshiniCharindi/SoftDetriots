@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AboutUs from "./Screens/AboutUs.tsx";
+import ContactUs from "./Screens/ContactUs.tsx";
 
 
 function App() {
@@ -13,8 +14,7 @@ function App() {
           <Routes>
               <Route element={<BaseHome/>} path='/'/>
               <Route element={<AboutUs/>} path='/aboutus'/>
-              {/*<Route element={<Shop/>} path='/shop'/>*/}
-              {/*<Route element={<ContactUs/>} path='/contact'/>*/}
+              <Route element={<ContactUs/>} path='/contact'/>
           </Routes>
       </BrowserRouter>
   )

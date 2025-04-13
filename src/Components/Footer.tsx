@@ -17,7 +17,7 @@ const Footer = () => {
         return () => window.removeEventListener('resize', handleResize);
     }, []);
 
-    const toggleSection = (index) => {
+    const toggleSection = (index: number) => {
         if (!isMobile) return;
 
         setExpandedSections(prev =>

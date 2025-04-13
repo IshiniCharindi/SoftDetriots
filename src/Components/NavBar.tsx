@@ -53,7 +53,7 @@ const NavBar = () => {
                     <div className="hidden lg:flex space-x-10 text-white">
                         <Link to={"/"}>Home</Link>
                         <Link to={"/aboutus"}>About Us</Link>
-                        <Link to={"/contactus"}>Contact US</Link>
+                        <Link to={"/contact"}>Contact US</Link>
 
                     </div>
 
@@ -66,7 +66,7 @@ const NavBar = () => {
                     <div className="flex flex-col space-y-4 items-center justify-center">
                         <Link to={"/"}>Home</Link>
                         <Link to={"/aboutus"}>About Us</Link>
-                        <Link to={"/contactus"}>Contact US</Link>
+                        <Link to={"/contact"}>Contact US</Link>
                     </div>
                 </div>
             )}
