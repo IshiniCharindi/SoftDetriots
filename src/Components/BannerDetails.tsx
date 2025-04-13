@@ -13,7 +13,7 @@ const BannerDetails = ({ reverse, img }) => {
                       reverse ? "md:order-last" : ""
                   }`}
               >
-                <h1 className="text-2xl font-bold sm:text-3xl md:text-4xl">
+                <h1 className="text-2xl font-bold sm:text-3xl md:text-4xl max-md:mx-auto">
                   About Soft Detroits
                 </h1>
                 <p className="text-sm text-slate-600 dark:text-slate-400 sm:text-base">

@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import "aos/dist/aos.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import AboutUs from "./Screens/AboutUs.tsx";
 
 
 function App() {
@@ -11,8 +12,7 @@ function App() {
       <BrowserRouter>
           <Routes>
               <Route element={<BaseHome/>} path='/'/>
-              {/*<Route element={<AdminBase/>} path='/admin'/>*/}
-              {/*<Route element={<AboutUs/>} path='/about'/>*/}
+              <Route element={<AboutUs/>} path='/aboutus'/>
               {/*<Route element={<Shop/>} path='/shop'/>*/}
               {/*<Route element={<ContactUs/>} path='/contact'/>*/}
           </Routes>
