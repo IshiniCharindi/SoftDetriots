@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="933e5ba8-aa5e-416b-8331-da8fa04a761a" name="Changes" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Services/Service.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Services/Service.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Services/Swipe.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Styles/slider.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/slider.css" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +115,12 @@
       <workItem from="1744448741843" duration="331000" />
       <workItem from="1744449788190" duration="905000" />
       <workItem from="1744450824435" duration="3620000" />
+<<<<<<< Updated upstream
       <workItem from="1744481050080" duration="7682000" />
+=======
+      <workItem from="1744481050080" duration="21267000" />
+      <workItem from="1744576626759" duration="973000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
