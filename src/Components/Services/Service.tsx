@@ -4,7 +4,7 @@ import Img3 from "../../assets/images/DesktopDevelopment.jpg";
 
 const Service = () => {
   return (
-    <main data-aos="fade-up" data-aos-offset="200" className="mt-20">
+    <main data-aos="fade-up" data-aos-offset="200" className="mt-10">
       <section className="container mb-20 mx-auto">
         <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
           Our Services

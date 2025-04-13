@@ -6,17 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="933e5ba8-aa5e-416b-8331-da8fa04a761a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AboutMiddleCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutMiddleCards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Services/ServiceCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Services/ServiceCard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Models/Company.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Company.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/BaseHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/BaseHome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services/home.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Services/Swipe.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +47,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Dev-01",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/languages/Git Repos/SoftDetriots/src/Styles",
+    "last_opened_file_path": "F:/languages/Git Repos/SoftDetriots",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -120,6 +111,7 @@
       <workItem from="1744449788190" duration="905000" />
       <workItem from="1744450824435" duration="3620000" />
       <workItem from="1744481050080" duration="21267000" />
+      <workItem from="1744576626759" duration="420000" />
     </task>
     <servers />
   </component>
