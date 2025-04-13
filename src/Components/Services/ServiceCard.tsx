@@ -1,4 +1,7 @@
-const ServiceCard = ({ Img1 }) => {
+interface ServiceCardProps {
+  img: string;
+}
+const ServiceCard = ({ img }: ServiceCardProps) => {
   return (
     <div>
       <div
@@ -7,7 +10,7 @@ const ServiceCard = ({ Img1 }) => {
       >
         <div className="overflow-hidden rounded-lg ">
           <img
-            src={Img1}
+            src={img}
             alt="No image"
             className="mx-auto h-[250px] w-full object-cover transition duration-700 hover:skew-x-2 hover:scale-110"
           />

@@ -1,4 +1,9 @@
-const BannerDetails = ({ reverse, img }) => {
+interface BannerDetailsProps {
+  reverse: boolean;
+  img: string;
+}
+
+const BannerDetails = ({ reverse, img }: BannerDetailsProps) => {
   return (
       <section className="bg-slate-100 dark:bg-slate-900 dark:text-white">
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
