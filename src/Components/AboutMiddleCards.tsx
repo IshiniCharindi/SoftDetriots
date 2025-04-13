@@ -85,8 +85,6 @@ const AboutMiddleCards: React.FC = () => {
         }
     ];
 
-
-
     return (
         <div className="mt-20">
             <h1 style={{fontFamily: 'Raleway, sans-serif'}}

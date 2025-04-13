@@ -32,7 +32,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="bg-gray-50 text-gray-800 px-6 py-16 md:px-12 lg:px-24">
+        <div className="bg-gray-50 text-gray-800 px-6 py-16 md:px-12 lg:px-24 mt-20">
             <div className="max-w-6xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-0">
                     {/* Left Section */}

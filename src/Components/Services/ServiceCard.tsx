@@ -1,4 +1,4 @@
-const ServiceCard = ({ Img1 }) => {
+const ServiceCard = ({ Img1 }: { Img1: string }) => {
   return (
     <div>
       <div

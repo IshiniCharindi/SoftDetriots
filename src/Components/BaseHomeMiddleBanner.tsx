@@ -1,6 +1,6 @@
 import bgBanner from "../assets/images/BaseHomeMiddleBanner.jpg"
 
-const BaseHomeMiddleBanner = (props) => {
+const BaseHomeMiddleBanner = (props: any) => {
     return (
         <div
             className={`relative bg-cover bg-center ${props.className} px-6 sm:px-12 rounded-lg shadow-lg`}
