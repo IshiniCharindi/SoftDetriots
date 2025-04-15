@@ -2,7 +2,7 @@ import "../styles/headSection.css";
 function HeadSection(props: any) {
     return (
         <div
-            className="headSection1 sm:min-h-[67vh] 2xl:min-h-[61vh] flex flex-col justify-center items-center text-center py-40 "
+            className="headSection1 h-[61vh]  sm:min-h-[67vh] md:min-h-[76vh]  flex flex-col justify-center items-center text-center py-40 "
             style={{
                 backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(${props.image})`,
                 backgroundSize: "cover",

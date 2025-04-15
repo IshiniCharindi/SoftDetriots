@@ -40,15 +40,15 @@ const FaqSection = () => {
 
     return (
         <div>
-            <section className="py-10 bg-gray-50 sm:py-16 lg:py-24">
-                <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+            <section className="bg-gray-50 sm:py-16 lg:py-24">
+                <div className="mx-auto sm:px-6 lg:px-8 max-w-7xl">
                     <div className="container mx-auto">
                         <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
                            Frequently Asked Questions
                         </h1>
                     </div>
 
-                    <div className="max-w-3xl mx-auto mt-8 space-y-4 md:mt-16">
+                    <div className="max-w-3xl px-7 mx-auto mt-8 space-y-4 md:mt-16">
                         {faqItems.map((item, index) => (
                             <div key={index} className="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
                                 <button

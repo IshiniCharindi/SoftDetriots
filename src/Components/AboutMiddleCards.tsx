@@ -102,7 +102,7 @@ const AboutMiddleCards: React.FC = () => {
                 </h1>
             </div>
 
-            <div className="!bg-white  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-10">
+            <div className="!bg-white  grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-7">
                 {techStacks.map((item, index) => (
                     <Card
                         key={index}

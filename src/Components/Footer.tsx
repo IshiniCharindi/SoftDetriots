@@ -149,7 +149,7 @@ const Footer = () => {
 
                 <div className="flex flex-col items-center justify-between px-2 space-y-4 sm:space-y-0 sm:flex-row">
                     <p className="text-white text-sm text-center sm:text-left">
-                        &copy; {new Date().getFullYear()} Developed by Sajan Hirusha
+                        &copy; {new Date().getFullYear()} Developed by <span className="font-bold">SoftDetroit</span>
                     </p>
                     <ul className="flex items-center space-x-3">
                         {socialIcons.map((social, index) => (

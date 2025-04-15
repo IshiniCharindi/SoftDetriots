@@ -29,13 +29,13 @@ export default function CoreValues() {
     ];
 
     return (
-        <div className="max-w-7xl mx-auto px-6 py-16">
+        <div className="max-w-7xl mx-auto py-16">
             <div className="container mx-auto">
-                <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
+                <h1 className="mb-8 border-l-8 py-2  text-center text-3xl font-bold">
                     Our Core Values
                 </h1>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 px-7">
                 {values.map((item, index) => (
                     <div
                         key={index}
