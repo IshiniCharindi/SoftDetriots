@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import logo from '../assets/images/logo.png';
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -62,12 +63,21 @@ const ContactForm = () => {
                     Get In Touch
                 </h1>
             </div>
-            
+
             <div className="max-w-6xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden mt-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-0 min-h-[600px]">
-                    {/* Left Section - Contact Info */}
-                    <div className="bg-gradient-to-b from-[var(--color-primary)] to-[var(--color-secondary)] p-10 text-white flex flex-col justify-between">
-                        <div>
+                    {/* Left Section - Contact Info with Watermark Logo */}
+                    <div className="bg-gradient-to-b from-[var(--color-primary)] to-[var(--color-secondary)] p-10 text-white flex flex-col justify-between relative overflow-hidden">
+                        {/* Watermark Logo */}
+                        <div className="absolute inset-0 flex items-center justify-center opacity-10">
+                            <img
+                                src={logo}
+                                alt="Company Logo"
+                                className="h-64 w-64 object-contain"
+                            />
+                        </div>
+
+                        <div className="relative z-10">
                             <h4 className="text-xs uppercase tracking-widest opacity-80">Get in Touch</h4>
                             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mt-4 leading-tight">
                                 Think better with company and get us with contact!
@@ -77,7 +87,7 @@ const ContactForm = () => {
                             </p>
                         </div>
 
-                        <div className="mt-8 space-y-4">
+                        <div className="mt-8 space-y-4 relative z-10">
                             <div className="flex items-start">
                                 <div className="flex-shrink-0 bg-white bg-opacity-20 p-2 rounded-full">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-blue-950" fill="none" viewBox="0 0 24 24" stroke="currentColor">

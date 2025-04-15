@@ -1,28 +1,30 @@
 const SpecializationSection = () => {
     const specializations = [
         {
-            title: "Architecture",
-            description: "A short description of this quality. Make these lines enticing enough to prove that you are the best in all you do."
+            title: "Website Development",
+            description: "We craft visually stunning, lightning-fast, and fully responsive websites that not only look great but also perform flawlessly. From concept to launch, we build digital experiences that captivate and convert.\n" +
+                "\n"
         },
         {
-            title: "Landscape Design",
-            description: "A short description of this quality. Make these lines enticing enough to prove that you are the best in all you do."
+            title: "Mobile App Development",
+            description: "Whether iOS or Android, we develop sleek, user-friendly mobile apps that deliver seamless performance and powerful functionality, all tailored to your business goals."
         },
         {
-            title: "Furniture Design",
-            description: "A short description of this quality. Make these lines enticing enough to prove that you are the best in all you do."
+            title: "UI/UX Design",
+            description: "We design intuitive interfaces and engaging user experiences that keep users coming back. Our design approach blends creativity with usability, making your digital presence unforgettable."
         },
         {
-            title: "Exterior Design",
-            description: "A short description of this quality. Make these lines enticing enough to prove that you are the best in all you do."
+            title: "Logo Design",
+            description: "Your brand deserves a logo that speaks volumes. We create timeless, memorable logos that reflect your identity, captivate your audience, and elevate your brand image."
         },
         {
-            title: "Site Planning",
-            description: "A short description of this quality. Make these lines enticing enough to prove that you are the best in all you do."
+            title: "ERP Solutions",
+            description: "Streamline operations and boost efficiency with our custom ERP systems. Designed to fit your unique workflow, our solutions simplify complexity and drive productivity across your organization.\n" +
+                "\n"
         },
         {
-            title: "Interior Design",
-            description: "A short description of this quality. Make these lines enticing enough to prove that you are the best in all you do."
+            title: "Full Stack Development",
+            description: "From frontend finesse to backend brilliance, we offer complete full stack solutions. Our expertise ensures robust, scalable, and high-performing applications, all built with cutting-edge technologies."
         }
     ];
 

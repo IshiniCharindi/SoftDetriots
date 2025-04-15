@@ -8,8 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/AboutMiddleCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutMiddleCards.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CoreValues.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CoreValues.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FAQSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FAQSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SpecializationSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SpecializationSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <workItem from="1744023854994" duration="2722000" />
       <workItem from="1744029245775" duration="1036000" />
       <workItem from="1744031003946" duration="5059000" />
-      <workItem from="1744689817780" duration="19472000" />
+      <workItem from="1744689817780" duration="22959000" />
     </task>
     <servers />
   </component>
