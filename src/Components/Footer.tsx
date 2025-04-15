@@ -17,7 +17,7 @@ const Footer = () => {
     }, []);
 
     const toggleSection = (index: number) => {
-        if (!isMobile) return;
+        if (!isMobile || index === 0) return; // Skip toggle for first section
         setExpandedSections(prev =>
             prev.includes(index)
                 ? prev.filter(i => i !== index)
@@ -39,9 +39,9 @@ const Footer = () => {
         {
             title: "Contact Details",
             links: [
-                { text: "+94 76 368 5923", icon: "M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z" }, // Phone
-                { text: "softdetroitservices@gmail.com", icon: "M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" }, // Email
-                { text: "Negambo, Sri Lanka", icon: "M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" } // Location
+                { text: "+94 76 368 5923", icon: "M3 2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V2zm6 11a1 1 0 1 0-2 0 1 1 0 0 0 2 0z" },
+                { text: "softdetroitservices@gmail.com", icon: "M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" },
+                { text: "Negambo, Sri Lanka", icon: "M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z" }
             ]
         },
     ];
@@ -53,101 +53,114 @@ const Footer = () => {
     ];
 
     return (
-        <div className="py-6 bg-gradient-to-b from-[var(--color-primary)] to-[var(--color-secondary)] sm:pt-10 lg:pt-14">
-            <div className="px-4 mx-auto sm:px-6 lg:px-40 max-w-full">
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-24 max-w-6xl mx-auto ml-10">
+        <div className="py-6 bg-gradient-to-b from-[var(--color-primary)] to-[var(--color-secondary)]">
+            <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+                {/* Grid sections with responsive layout */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12 lg:ml-16">
                     {sections.map((section, index) => (
                         <div
                             key={index}
-                            className={`max-md:bg-gray-700/30 rounded-lg p-3 transition-all duration-300 ${isMobile ? 'cursor-pointer' : ''} ${expandedSections.includes(index) ? 'md:shadow-lg shadow-[#D2042D]/50' : ''}`}
+                            className={`rounded-lg p-4 transition-all duration-300 ${
+                                index !== 0 && isMobile ? 'cursor-pointer bg-gray-700/30' : ''
+                            } ${
+                                expandedSections.includes(index) ? 'md:shadow-lg shadow-[#D2042D]/50' : ''
+                            }`}
                             onClick={() => toggleSection(index)}
                         >
-                            <div className="flex items-center justify-between">
-                                {index === 0 ? (
-                                    <div>
-                                        <div className="flex items-center mb-2">
-                                            <img
-                                                src={section.logo}
-                                                alt="Company Logo"
-                                                className="h-20 ml-24 mb-2"
-                                            />
-                                        </div>
-                                        <p className="text-xs text-gray-300 mb-3">{section.description}</p>
-                                    </div>
-                                ) : (
-                                    <h3 className="text-md font-medium text-white md:underline mb-3">{section.title}</h3>
-                                )}
-                                {isMobile && (
-                                    <svg
-                                        className={`w-4 h-4 text-white transform transition-transform duration-300 ${expandedSections.includes(index) ? 'rotate-180' : ''}`}
-                                        fill="none"
-                                        viewBox="0 0 24 24"
-                                        stroke="currentColor"
-                                    >
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-                                    </svg>
-                                )}
-                            </div>
+                            {/* First section (logo + description) - always visible */}
+                            {index === 0 && (
+                                <div className="flex flex-col items-center text-center md:text-left md:items-start">
+                                    <img
+                                        src={section.logo}
+                                        alt="Company Logo"
+                                        className="h-16 md:h-20 mb-3 mx-auto md:mx-0"
+                                    />
+                                    <p className="text-sm text-gray-300">{section.description}</p>
+                                </div>
+                            )}
 
-                            <div className={`${isMobile ? (expandedSections.includes(index) ? 'max-h-96 mt-3' : 'max-h-0') : 'max-h-96'} overflow-hidden transition-all duration-300`}>
-                                <ul className="space-y-2">
-                                    {section.links.map((link, i) => (
-                                        <li key={i} className="flex items-start">
-                                            {index === 2 ? (
-                                                <>
-                                                    <svg
-                                                        className="w-3 h-3 mt-1 mr-2 text-white flex-shrink-0"
-                                                        viewBox="0 0 16 16"
-                                                        fill="currentColor"
-                                                    >
-                                                        <path d={link.icon} />
-                                                    </svg>
-                                                    <span className="text-white text-sm">{link.text}</span>
-                                                </>
-                                            ) : (
-                                                <a
-                                                    href="#"
-                                                    className="block py-1 text-white text-sm hover:text-[#D2042D] transition-colors duration-200"
-                                                >
-                                                    {link.text || link}
-                                                </a>
-                                            )}
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
+                            {/* Other sections with toggle functionality on mobile */}
+                            {index !== 0 && (
+                                <>
+                                    <div className="flex items-center justify-between">
+                                        <h3 className="text-lg font-medium text-white md:underline mb-3">
+                                            {section.title}
+                                        </h3>
+                                        {isMobile && (
+                                            <svg
+                                                className={`w-4 h-4 text-white transform transition-transform duration-300 ${
+                                                    expandedSections.includes(index) ? 'rotate-180' : ''
+                                                }`}
+                                                fill="none"
+                                                viewBox="0 0 24 24"
+                                                stroke="currentColor"
+                                            >
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+                                            </svg>
+                                        )}
+                                    </div>
+
+                                    <div
+                                        className={`${
+                                            isMobile
+                                                ? expandedSections.includes(index)
+                                                    ? 'max-h-96 mt-3'
+                                                    : 'max-h-0'
+                                                : 'max-h-96'
+                                        } overflow-hidden transition-all duration-300`}
+                                    >
+                                        <ul className="space-y-2">
+                                            {section.links.map((link, i) => (
+                                                <li key={i} className="flex items-start">
+                                                    {index === 2 ? (
+                                                        <>
+                                                            <svg
+                                                                className="w-4 h-4 mt-0.5 mr-2 text-white flex-shrink-0"
+                                                                viewBox="0 0 16 16"
+                                                                fill="currentColor"
+                                                            >
+                                                                <path d={link.icon} />
+                                                            </svg>
+                                                            <span className="text-white text-sm">{link.text}</span>
+                                                        </>
+                                                    ) : (
+                                                        <a
+                                                            href="#"
+                                                            className="block py-1 text-white text-sm hover:text-[#D2042D] transition-colors duration-200"
+                                                        >
+                                                            {link}
+                                                        </a>
+                                                    )}
+                                                </li>
+                                            ))}
+                                        </ul>
+                                    </div>
+                                </>
+                            )}
                         </div>
                     ))}
                 </div>
 
-                <hr className="mt-10 mb-6 border-gray-800 max-w-8xl mx-auto" />
+                <hr className="mt-8 mb-6 border-gray-700" />
 
-                <div className="flex flex-col items-center justify-between px-2 space-y-4 sm:space-y-0 sm:flex-row sm:px-5 max-w-4xl mx-auto">
-                    <p className="text-white text-sm text-center sm:text-left">&copy; Developed by Sajan Hirusha</p>
-                    <ul className="flex items-center space-x-2">
+                <div className="flex flex-col items-center justify-between px-2 space-y-4 sm:space-y-0 sm:flex-row">
+                    <p className="text-white text-sm text-center sm:text-left">
+                        &copy; {new Date().getFullYear()} Developed by Sajan Hirusha
+                    </p>
+                    <ul className="flex items-center space-x-3">
                         {socialIcons.map((social, index) => (
                             <li key={index}>
                                 <a
                                     href="#"
-                                    className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-6 h-6 focus:bg-[#D2042D] hover:bg-[#D2042D]/30 hover:border-[#D2042D] focus:border-[#D2042D]"
+                                    className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 hover:bg-[#D2042D]/30 hover:border-[#D2042D] focus:outline-none focus:ring-2 focus:ring-[#D2042D]"
                                 >
-                                    {index !== 2 && (
-                                        <svg className="w-3 h-3" viewBox="0 0 20 24" fill="currentColor">
-                                            <path d={social.path}/>
-                                        </svg>
-                                    )}
-                                    {index === 2 && (
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="8"
-                                            height="8"
-                                            fill="currentColor"
-                                            className="bi bi-whatsapp"
-                                            viewBox="0 0 16 16"
-                                        >
-                                            <path d={social.path}/>
-                                        </svg>
-                                    )}
+                                    <svg
+                                        className="w-3.5 h-3.5"
+                                        viewBox="0 0 16 16"
+                                        fill="currentColor"
+                                    >
+                                        <path d={social.path} />
+                                    </svg>
                                 </a>
                             </li>
                         ))}
