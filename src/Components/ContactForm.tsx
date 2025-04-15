@@ -76,7 +76,7 @@ const ContactForm = () => {
                     <div className="bg-gradient-to-b from-[var(--color-primary)] to-[var(--color-secondary)] p-10 text-white flex flex-col justify-between">
                         <div>
                             <h4 className="text-xs uppercase tracking-widest opacity-80">Get in Touch</h4>
-                            <h1 className="text-3xl md:text-4xl font-bold mt-4 leading-tight">
+                            <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold mt-4 leading-tight">
                                 Think better with company and get us with contact!
                             </h1>
                             <p className="mt-6 opacity-90 leading-relaxed">
@@ -93,7 +93,7 @@ const ContactForm = () => {
                                 </div>
                                 <div className="ml-4">
                                     <p className="text-sm opacity-80">Phone</p>
-                                    <p className="font-semibold">+94 76 368 5923</p>
+                                    <p className="font-semibold lg:text-lg sm:text-sm">+94 76 368 5923</p>
                                 </div>
                             </div>
 
@@ -105,7 +105,7 @@ const ContactForm = () => {
                                 </div>
                                 <div className="ml-4">
                                     <p className="text-sm opacity-80">Email</p>
-                                    <p className="font-semibold">softdetroitservices@gmail.com</p>
+                                    <p className="font-semibold lg:text-lg sm:text-sm">softdetroitservices@gmail.com</p>
                                 </div>
                             </div>
 
@@ -118,7 +118,7 @@ const ContactForm = () => {
                                 </div>
                                 <div className="ml-4">
                                     <p className="text-sm opacity-80">Address</p>
-                                    <p className="font-semibold">Negambo, Sri Lanka</p>
+                                    <p className="font-semibold lg:text-lg sm:text-sm">Negambo, Sri Lanka</p>
                                 </div>
                             </div>
                         </div>
