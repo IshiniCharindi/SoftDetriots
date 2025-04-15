@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({ name, timeRange, imageUrl, description }) =
 
     return (
         <div className="rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow duration-300 group relative">
-            <div className="h-67 overflow-hidden relative">
+            <div className="h-55 sm:h-67 overflow-hidden relative">
                 <img
                     src={imageUrl}
                     alt={name}
