@@ -9,8 +9,8 @@ const ContactUs = () => {
     return (
         <div>
             <NavBar/>
-            <HeadSection heading={'Contact Us'}
-                         para={'Global Trade, Seamless Solutions – Connecting Markets, Creating Opportunities!'}
+            <HeadSection heading={'Let’s Build Something Great Together.'}
+                         para={'Have an idea or project in mind? Reach out — we’re just a message away from making it real.'}
                          image={ContactHeadSection}/>
             <ContactForm/>
             <FAQSection/>

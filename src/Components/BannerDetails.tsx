@@ -22,19 +22,18 @@ const BannerDetails = ({ reverse}: BannerDetailsProps) => {
                   About Soft Detroits
                 </h1>
                 <p className="text-sm text-slate-600 dark:text-slate-400 sm:text-base">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi
-                  ducimus eius quis ad enim aliquid iusto eum nihil exercitationem
-                  necessitatibus?
+                  Soft Detroits is a cutting-edge software solutions company committed to delivering innovative, reliable, and user-friendly digital
+                  experiences. <br/> <span className="text-md text-slate-800 sm:text-base">Why choose Soft Detroits?</span>
                 </p>
                 <div className="w-full">
                   <ul className="flex list-inside list-disc flex-col gap-2 text-sm sm:text-base md:gap-3">
                     <li className="font-medium">
-                      Lorem ipsum adipisicing elit. Cum, vel.
+                      Future-ready technology
                     </li>
                     <li className="font-medium">
-                      dlss ipsum adipisicing elit. Cum, vel.
+                      Customer-centric approach
                     </li>
-                    <li className="font-medium">adipisicing elit. Cum, vel.</li>
+                    <li className="font-medium">Innovative digital strategies</li>
                   </ul>
                 </div>
                 <div className="mt-2 flex flex-wrap gap-3">

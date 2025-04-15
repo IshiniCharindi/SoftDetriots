@@ -18,10 +18,12 @@ const OurStory = () => {
                 <h1 className="text-3xl md:text-4xl font-bold text-gray-800 mb-6">Our Story</h1>
 
                 <p className="text-gray-600 mb-8 leading-relaxed">
-                    You can add here some history of your company. You can mention all the benefits or services with some real examples.
-                    You can also state how you emphasize on their well being. This often shows your concern and increases the chances
-                    of conversion. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                    mattis, pulvinar dapibus leo.
+                    At SoftDetroits, we empower businesses with smart, scalable software. From a small team of passionate
+                    developers, we've grown into a tech powerhouse delivering custom software, web and mobile apps, and automation
+                    systems. Our client-first approach ensures we collaborate, listen, and build solutions that matter.
+                    <br/>
+                    Beyond just delivering products, we care about our clients’ long-term success. That’s why we prioritize quality,
+                    performance, and peace of mind because your growth is our goal.
                 </p>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

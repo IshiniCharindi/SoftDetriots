@@ -11,16 +11,17 @@ const BaseHomeMiddleBanner = (props: any) => {
 
             <div className="relative z-10 max-w-2xl mx-auto text-center">
                 <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-                    Get Your Free Consultation
+                    Unlock Digital Success with Soft Detroits
                 </h2>
 
                 <p className="text-white text-lg mb-8">
-                    You can use these sections to highlight the features of heading. Use these paragraphs
-                    to focus on the topic you want. Make sure you keep it short and attractive.
+                    At Soft Detroits, we don’t just build websites or apps, we craft powerful digital solutions designed
+                    for growth. Let’s explore your vision, define your goals, and map out a smart strategy together.
+                    <br/><span className="text-gray-200 font-bold text-lg mb-8">Ready to transform your vision into reality?</span>
                 </p>
 
                 <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">
-                    Book An Appointment →
+                    Let's talk →
                 </button>
             </div>
         </div>

@@ -16,8 +16,8 @@ interface Company {
 
 // Static data about the company
 const company: Company = {
-    name: 'Sabari Holdings',
-    email: 'info@sabariholdings.com',
+    name: 'Soft Detroits',
+    email: 'softdetroitservices@gmail.com',
     mobile: '+94 77 551 7474',
     social: {
         faceBook: 'https://www.facebook.com/masimpex1?mibextid=ZbWKwL'
@@ -25,18 +25,18 @@ const company: Company = {
     banner: [
         {
             imageLink: banner01,
-            heading: 'Global Trade Expertise',
-            description: 'A trusted name in the export-import industry, bridging global markets with quality products.'
+            heading: 'Automate Smarter, Future-Proof',
+            description: 'Empower your business with intelligent automation that evolves with tomorrow. \n'
         },
         {
             imageLink: banner02,
-            heading: 'Product Specialization',
-            description: 'Ensuring the highest standards in international trade and logistics.'
+            heading: 'Build Bold. Code Smart',
+            description: 'From startups to enterprises, we engineer clean, future-ready code that grows with your vision.\n'
         },
         {
             imageLink: banner03,
-            heading: 'Reliable Services',
-            description: 'Empowering businesses with top-tier export-import services worldwide.'
+            heading: 'Driven by Innovation, Powered by Code',
+            description: 'We don’t just develop software. We build digital experiences that fuel your success.\n'
         }
     ],
 };

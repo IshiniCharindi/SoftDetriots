@@ -10,8 +10,8 @@ const AboutUs = () => {
     return (
         <div>
             <NavBar/>
-            <HeadSection heading={'About Us'}
-                         para={'Global Trade, Seamless Solutions – Connecting Markets, Creating Opportunities!'}
+            <HeadSection heading={'Driven by Vision, Crafted with Code.'}
+                         para={'Meet the minds behind Soft Detroits where creativity meets code to build solutions that matter.'}
                          image={backgroundImage}/>
             <OurStory/>
             <AboutMiddleCards/>

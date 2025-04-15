@@ -4,26 +4,26 @@ export default function CoreValues() {
     const values = [
         {
             icon: Globe,
-            title: "Global Reach",
-            description: "Operating in diverse markets worldwide",
+            title: "Innovation",
+            description: "Continuously pushing boundaries to create cutting-edge solutions.",
             color: "from-blue-500 to-purple-500",
         },
         {
             icon: Users,
-            title: "Customer First",
-            description: "Dedicated to exceeding client expectations",
+            title: "Collaboration",
+            description: "Working closely with clients to understand their needs and deliver tailored results.",
             color: "from-green-500 to-teal-500",
         },
         {
             icon: TrendingUp,
-            title: "Reliability",
-            description: "Delivering consistent and dependable solutions in global trade",
+            title: "Integrity",
+            description: "Upholding honesty and transparency in every project and interaction.",
             color: "from-yellow-500 to-orange-500",
         },
         {
             icon: Award,
-            title: "Quality",
-            description: "Maintaining highest industry standards",
+            title: "Excellence",
+            description: "Striving for the highest quality in everything we build.",
             color: "from-red-500 to-pink-500",
         },
     ];
