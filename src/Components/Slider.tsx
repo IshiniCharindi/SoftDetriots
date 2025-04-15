@@ -1,5 +1,5 @@
 import {useState, useEffect, useRef} from 'react'
-import company from '../models/Company'
+import company from '../Models/Company';
 import {motion, AnimatePresence} from 'framer-motion'
 import {ArrowLeftOutlined, ArrowRightOutlined} from '@ant-design/icons'
 import '../styles/slider.css'
@@ -55,7 +55,7 @@ export default function Slider() {
 
 
     return (
-        <div className='slider min-h-[70vh]' id='slider'>
+        <div className='slider h-[55vh] sm:h-[80vh] overflow-hidden md:h-[91vh] mt-10   ' id='slider '>
             <div className="background-blur"></div>
             <div className="image-list-slider" id='image-list-slider'>
                 {
@@ -77,7 +77,7 @@ export default function Slider() {
             <div className="container slider-content relative" style={{height: '100%'}}>
 
                 <div className="center-line">
-                    <div className="arrow" onClick={() => updateIndex(false)}><ArrowLeftOutlined style={{fontSize: '24px'}}/></div>
+                    <div className="arrow !bg-[var(--color-primary)]/40" onClick={() => updateIndex(false)}><ArrowLeftOutlined style={{fontSize: '24px'}}/></div>
 
                     <div className="wrapper">
                         <AnimatePresence>
@@ -87,10 +87,10 @@ export default function Slider() {
                                     exit={{opacity: 0, y: -100}}
                                     animate={{opacity: 1, y: 0}}
                                     className="container flex-col items-center">
-                                    <h1 className="title max-[350px]:text-xl text-2xl sm:text-3xl md:text-4xl lg:text-4xl min-[1900px]:text-6xl mb-5 ">{company.banner[index].heading}</h1>
-                                    <h3 className=" description text-center max-[350px]:text-[8px] text-[10px] md:text-xs xl:text-sm min-[1900px]:text-2xl">{company.banner[index].description}</h3>
+                                    <h1 className="font-bold text-center title max-[350px]:text-xl text-2xl sm:text-3xl md:text-4xl lg:text-4xl min-[1900px]:text-6xl mb-5 ">{company.banner[index].heading}</h1>
+                                    <h3 className=" description text-center max-[350px]:text-[8px] text-[10px] md:text-base min-[1900px]:text-2xl">{company.banner[index].description}</h3>
                                     <Link to="/shop">
-                                        <button className=" bg-slate-400 m-8 max-w-[300px] max-[350px]:text-xs text-sm md:text-base min-[1900px]:text-lg">
+                                        <button className="mx-auto px-5 py-4 rounded-xl  text-center !bg-[var(--color-primary)] m-8 max-w-[300px] max-[350px]:text-xs text-sm md:text-base min-[1900px]:text-lg">
                                             DISCOVER MORE
                                         </button>
                                     </Link>
@@ -100,7 +100,7 @@ export default function Slider() {
 
                     </div>
 
-                    <div className="arrow" onClick={() => updateIndex(true)}><ArrowRightOutlined style={{fontSize: '24px'}}/></div>
+                    <div className="arrow !bg-[var(--color-primary)]/40" onClick={() => updateIndex(true)}><ArrowRightOutlined style={{fontSize: '24px'}}/></div>
 
                 </div>
 
