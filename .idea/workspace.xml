@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="933e5ba8-aa5e-416b-8331-da8fa04a761a" name="Changes" comment="">
+    <list default="true" id="1c8530cb-3401-4666-9151-6a78c4fe7585" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AboutMiddleCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutMiddleCards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/SpecializationSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/SpecializationSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CoreValues.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CoreValues.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FAQSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FAQSection.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,94 +17,15 @@
   <component name="ComposerSettings">
     <execution />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="TypeScript JSX File" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 6
-}</component>
-  <component name="ProjectId" id="2vCwgxvccnUF36qEZQ5fj0zsw9E" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Dev-02&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/projects/SoftDetriots/SoftDetriots/softdetroits/src/assets/images&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;G:\\projects\\SoftDetriots\\SoftDetriots\\softdetroits\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "Dev-01",
+    "last_opened_file_path": "F:/languages/Git Repos/Masimplex/MasImplex-backend/MasImplex-backend",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "ts.external.directory.path": "F:\\languages\\Git Repos\\SoftDetriots\\node_modules\\typescript\\lib"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\projects\SoftDetriots\SoftDetriots\softdetroits\src\assets\images" />
-      <recent name="F:\languages\Git Repos\SoftDetriots" />
-      <recent name="F:\languages\Git Repos\SoftDetriots\src\Styles" />
-      <recent name="F:\languages\Git Repos\SoftDetriots\src\Models" />
-      <recent name="F:\languages\Git Repos\SoftDetriots\src\redux" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\languages\Git Repos\SoftDetriots\src\assets\images" />
-      <recent name="F:\languages\Git Repos\SoftDetriots\node_modules" />
-      <recent name="F:\languages\Git Repos\SoftDetriots\node_modules\.bin" />
-      <recent name="G:\projects\SoftDetriots\SoftDetriots\SoftDetoits" />
-    </key>
-  </component>
-  <component name="SharedIndexes">
-    <attachedChunks>
-      <set>
-        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
-      </set>
-    </attachedChunks>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+}]]></component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="933e5ba8-aa5e-416b-8331-da8fa04a761a" name="Changes" comment="" />
-      <created>1743662478808</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1743662478808</updated>
-      <workItem from="1743662480226" duration="1928000" />
-      <workItem from="1743874585811" duration="3090000" />
-      <workItem from="1744016079516" duration="360000" />
-      <workItem from="1744016467400" duration="336000" />
-      <workItem from="1744016831727" duration="4588000" />
-      <workItem from="1744023854994" duration="2722000" />
-      <workItem from="1744029245775" duration="1036000" />
-      <workItem from="1744031003946" duration="5059000" />
-      <workItem from="1744689817780" duration="22959000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
   </component>
 </project>
