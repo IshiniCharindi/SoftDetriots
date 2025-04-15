@@ -37,11 +37,11 @@ const BannerDetails = ({ reverse}: BannerDetailsProps) => {
                   </ul>
                 </div>
                 <div className="mt-2 flex flex-wrap gap-3">
-                  <button className="rounded-md border-1 bg-blue-950/10 px-4 py-2 text-sm font-medium text-[var(--color-primary)] transition-all duration-300 hover:bg-primary/80 hover:shadow-md sm:px-5 sm:py-2.5">
-                    Get Started
+                  <button className="rounded-md border-1 hover:bg-blue-950/10 px-4 py-2 text-sm font-medium hover:text-[var(--color-primary)] transition-all duration-300 bg-blue-800 text-white hover:shadow-md sm:px-5 sm:py-2.5">
+                    <a href="/contact">Get Started</a>
                   </button>
-                  <button className="rounded-md border-1 border-gray-300 px-4 py-2 text-sm font-medium transition-all duration-300 hover:bg-gray-200 dark:border-gray-600 dark:hover:bg-gray-800 sm:px-5 sm:py-2.5">
-                    Learn More
+                  <button className="rounded-md border-1 border-gray-300 hover:bg-gray-50 hover:text-black px-4 py-2 text-sm font-medium transition-all duration-300 bg-gray-800 text-white  sm:px-5 sm:py-2.5">
+                    <a href="/about">Learn More</a>
                   </button>
                 </div>
               </div>
