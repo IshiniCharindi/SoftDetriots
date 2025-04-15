@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const FaqSection = () => {
     const [activeIndex, setActiveIndex] = useState(null);
 
-    const toggleAnswer = (index) => {
+    const toggleAnswer = (index:any) => {
         if (activeIndex === index) {
             setActiveIndex(null);
         } else {
