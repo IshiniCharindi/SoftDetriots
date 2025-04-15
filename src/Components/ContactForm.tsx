@@ -57,19 +57,12 @@ const ContactForm = () => {
 
     return (
         <div className="bg-gray-50 text-gray-800 px-6 py-16 md:px-12 lg:px-24 mt-20">
-            <h1
-                style={{fontFamily: 'Raleway, sans-serif'}}
-                className="text-center font-thin max-[350px]:text-xl text-2xl sm:text-3xl md:text-4xl lg:text-5xl min-2xl:text-6xl"
-            >
-                Get In Touch
-            </h1>
-            <div className="flex justify-center items-center">
-                <p className="text-center text-gray-400 relative inline-block leading-[3] tracking-[4px]">
-                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                    <span className="absolute left-1/2 mt-5 transform -translate-x-1/2 bottom-0 w-[55px] h-[2px] bg-[var(--color-primary)]"></span>
-                </p>
+            <div className="container mx-auto">
+                <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
+                    Get In Touch
+                </h1>
             </div>
-
+            
             <div className="max-w-6xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden mt-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-0 min-h-[600px]">
                     {/* Left Section - Contact Info */}

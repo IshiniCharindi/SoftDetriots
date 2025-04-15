@@ -1,4 +1,5 @@
 import { Globe, Users, TrendingUp, Award } from "lucide-react";
+import React from "react";
 
 export default function CoreValues() {
     const values = [
@@ -30,9 +31,11 @@ export default function CoreValues() {
 
     return (
         <div className="max-w-7xl mx-auto px-6 py-16">
-            <h2 className="text-3xl md:text-4xl lg:text-4xl 2xl:text-5xl font-bold text-center mb-12 text-gray-900">
-                Our Core Values
-            </h2>
+            <div className="container mx-auto">
+                <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
+                    Our Core Values
+                </h1>
+            </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 {values.map((item, index) => (
                     <div

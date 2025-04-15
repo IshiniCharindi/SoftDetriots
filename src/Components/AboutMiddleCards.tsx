@@ -87,16 +87,12 @@ const AboutMiddleCards: React.FC = () => {
 
     return (
         <div className="mt-20">
-            <h1 style={{fontFamily: 'Raleway, sans-serif'}}
-                className="text-center font-thin max-[350px]:text-xl text-2xl sm:text-3xl md:text-4xl lg:text-5xl min-2xl:text-6xl"> Our
-                Main Technlogy stacks</h1>
-            <div className="flex justify-center items-center">
-                <p className="text-center text-gray-400 relative inline-block leading-[3] tracking-[4px]">
-                    what we offer
-                    <span
-                        className="absolute left-1/2 mt-5 transform -translate-x-1/2 bottom-0 w-[55px] h-[2px] bg-[var(--color-primary)]"></span>
-                </p>
+            <div className="container  mx-auto">
+                <h1 className=" border-l-8 py-2 pl-2 text-center text-3xl font-bold">
+                    Our Main Technology Stacks
+                </h1>
             </div>
+
             <div className="!bg-white grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 p-10">
                 {techStacks.map((item, index) => (
                     <Card
