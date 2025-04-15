@@ -6,7 +6,7 @@ interface BannerDetailsProps {
 
 const BannerDetails = ({ reverse}: BannerDetailsProps) => {
   return (
-      <section className="bg-slate-100 dark:bg-slate-900 dark:text-white">
+      <section className="bg-slate-100">
         <div className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col items-center justify-center py-8 md:min-h-[500px] md:py-10">
             <div className="grid w-full grid-cols-1 items-center gap-6 md:grid-cols-2 md:gap-8">

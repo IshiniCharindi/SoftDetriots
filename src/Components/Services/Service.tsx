@@ -12,7 +12,7 @@ const Service = () => {
         <div className="grid grid-cols-1 gap-3 sm:grid-cols-2 md:grid-cols-3">
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl dark:bg-slate-950"
+            className="p-4 shadow-lg transition-all duration-500 hover:shadow-xl"
           >
             <div className="overflow-hidden">
               <img
@@ -37,7 +37,7 @@ const Service = () => {
           </div>
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className="p-4 shadow-lg transition-all duration-200 hover:shadow-xl "
           >
             <div className="overflow-hidden">
               <img
@@ -62,7 +62,7 @@ const Service = () => {
           </div>
           <div
             id="card"
-            className="p-4 shadow-lg transition-all duration-200 hover:shadow-xl dark:bg-slate-950"
+            className="p-4 shadow-lg transition-all duration-200 hover:shadow-xl"
           >
             <div className="overflow-hidden">
               <img
