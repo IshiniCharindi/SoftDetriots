@@ -21,7 +21,7 @@ const BaseHomeMiddleBanner = (props: any) => {
                 </p>
 
                 <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">
-                    Let's talk →
+                   <a href="/contact">Let's talk →</a>
                 </button>
             </div>
         </div>
