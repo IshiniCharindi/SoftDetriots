@@ -1,4 +1,12 @@
 import React from "react";
+import react from '../assets/images/react.png'
+import node from '../assets/images/node.png'
+import next from '../assets/images/nextjs.png'
+import django from '../assets/images/django.png'
+import dotnet from '../assets/images/dotnet.png'
+import flutter from '../assets/images/flutter.png'
+import reactnative from '../assets/images/reactnative.png'
+import springboot from '../assets/images/springboot.png'
 
 interface CardProps {
     name: string;
@@ -39,49 +47,50 @@ const AboutMiddleCards: React.FC = () => {
             name: "React Stack",
             timeRange: "Interactive Web UIs",
             description: "React, JavaScript, REST APIs.",
-            imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+            imageUrl: react
         },
         {
             name: "Next.js Stack",
             timeRange: "SEO-Friendly Web Apps",
             description: "Next.js, React, Node.js.",
-            imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
-        },
-        {
-            name: "Node.js + Express Stack",
-            timeRange: "Scalable Backends",
-            description: "Node.js, Express, REST APIs, MongoDB",
-            imageUrl: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+            imageUrl: next
         },
         {
             name: "Flutter Stack",
             timeRange: "Cross-Platform Apps",
             description: "Flutter UI, Dart, Firebase/MySQL backend.",
-            imageUrl: "https://images.unsplash.com/photo-1531482615713-2afd69097998?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+            imageUrl: flutter
         },
+        {
+            name: "Node.js + Express Stack",
+            timeRange: "Scalable Backends",
+            description: "Node.js, Express, REST APIs, MongoDB",
+            imageUrl: node
+        },
+
         {
             name: "Django Stack",
             timeRange: "Python Web Apps",
             description: "Python, Django, PostgreSQL.",
-            imageUrl: "https://images.unsplash.com/photo-1605379399642-870262d3d051?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+            imageUrl: django
         },
         {
             name: "Spring Boot Stack",
             timeRange: "Robust Java Backend",
             description: "Java, Spring Boot, Spring Security,MySQL.",
-            imageUrl: "https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+            imageUrl: springboot
         },
         {
             name: "React Native Stack",
             timeRange: "Mobile App Development",
             description: "React Native, JavaScript, APIs, Firebase",
-            imageUrl: "https://images.unsplash.com/photo-1508780709619-79562169bc64?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+            imageUrl: reactnative
         },
         {
             name: ".NET Stack",
             timeRange: "Enterprise Applications",
             description: "C#, ASP.NET Core, SQL Server.",
-            imageUrl: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80"
+            imageUrl: dotnet
         }
     ];
 

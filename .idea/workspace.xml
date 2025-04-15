@@ -5,10 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="933e5ba8-aa5e-416b-8331-da8fa04a761a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/django.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/dotnet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/flutter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/nextjs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/node.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/react.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/reactnative.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/images/springboot.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BaseHomeAbout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHomeAbout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AboutMiddleCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutMiddleCards.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +103,7 @@
       <workItem from="1744023854994" duration="2722000" />
       <workItem from="1744029245775" duration="1036000" />
       <workItem from="1744031003946" duration="5059000" />
-      <workItem from="1744689817780" duration="26090000" />
+      <workItem from="1744689817780" duration="26722000" />
     </task>
     <servers />
   </component>
