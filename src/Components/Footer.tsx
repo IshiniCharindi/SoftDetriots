@@ -69,11 +69,11 @@ const Footer = () => {
                         >
                             {/* First section (logo + description) - always visible */}
                             {index === 0 && (
-                                <div className="flex flex-col items-center text-center md:text-left md:items-start">
+                                <div className="flex flex-col items-center  text-center md:text-left md:items-start">
                                     <img
                                         src={section.logo}
                                         alt="Company Logo"
-                                        className="h-16 md:h-20 mb-3 mx-auto md:mx-0"
+                                        className="h-16 md:h-20 mb-3 mx-auto md:mx-0 lg:ml-28"
                                     />
                                     <p className="text-sm text-gray-300">{section.description}</p>
                                 </div>
@@ -156,7 +156,7 @@ const Footer = () => {
                                 >
                                     <svg
                                         className="w-3.5 h-3.5"
-                                        viewBox="0 0 16 16"
+                                        viewBox="0 0 24 24"
                                         fill="currentColor"
                                     >
                                         <path d={social.path} />
