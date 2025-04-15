@@ -1,4 +1,5 @@
 import img from "../assets/images/blog1.jpg";
+import {Link} from "react-router-dom";
 
 interface BannerDetailsProps {
   reverse: boolean;
@@ -38,10 +39,10 @@ const BannerDetails = ({ reverse}: BannerDetailsProps) => {
                 </div>
                 <div className="mt-2 flex flex-wrap gap-3">
                   <button className="rounded-md border-1 hover:bg-blue-950/10 px-4 py-2 text-sm font-medium hover:text-[var(--color-primary)] transition-all duration-300 bg-blue-800 text-white hover:shadow-md sm:px-5 sm:py-2.5">
-                    <a href="/contact">Get Started</a>
+                    <Link to="/contact">Get Started</Link>
                   </button>
                   <button className="rounded-md border-1 border-gray-300 hover:bg-gray-50 hover:text-black px-4 py-2 text-sm font-medium transition-all duration-300 bg-gray-800 text-white  sm:px-5 sm:py-2.5">
-                    <a href="/about">Learn More</a>
+                    <Link to="/about">Learn More</Link>
                   </button>
                 </div>
               </div>
