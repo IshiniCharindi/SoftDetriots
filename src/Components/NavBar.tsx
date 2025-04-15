@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-
+import logo from '../assets/images/logo.png'
 const NavBar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -15,8 +15,8 @@ const NavBar = () => {
                     <div className="flex-shrink-0">
                         <Link to="/" className="flex">
                             <img
-                                className="h-8"
-                                src="https://cdn.rareblocks.xyz/collection/celebration/images/logo-alt.svg"
+                                className="h-14 w-12"
+                                src={logo}
                                 alt="Logo"
                             />
                         </Link>

@@ -1,4 +1,4 @@
-import img from "../assets/images/blog1.jpg";
+import img from "../assets/images/logowithbg.jpg";
 import {Link} from "react-router-dom";
 
 interface BannerDetailsProps {
@@ -56,7 +56,7 @@ const BannerDetails = ({ reverse}: BannerDetailsProps) => {
                 <img
                     src={img}
                     alt="About Soft Detroits"
-                    className="mx-auto h-auto w-full rounded-lg object-cover shadow-sm transition-all duration-300 hover:shadow-md sm:max-h-[400px] sm:min-h-[350px]"
+                    className="mx-auto h-auto w-90 rounded-lg object-cover shadow-sm transition-all duration-300 hover:shadow-md sm:max-h-[400px] sm:min-h-[350px]"
                 />
               </div>
             </div>

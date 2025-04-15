@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8530cb-3401-4666-9151-6a78c4fe7585" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/images/logowithbg.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CoreValues.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CoreValues.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/FAQSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FAQSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,12 +20,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "Dev-01",
-    "last_opened_file_path": "F:/languages/Git Repos/Masimplex/MasImplex-backend/MasImplex-backend",
+    "git-widget-placeholder": "Dev-02",
+    "last_opened_file_path": "G:/projects/SoftDetriots/SoftDetriots/softdetroits/src/assets/images",
     "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "F:\\languages\\Git Repos\\SoftDetriots\\node_modules\\typescript\\lib"
+    "ts.external.directory.path": "G:\\projects\\SoftDetriots\\SoftDetriots\\softdetroits\\node_modules\\typescript\\lib"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\projects\SoftDetriots\SoftDetriots\softdetroits\src\assets\images" />
+    </key>
+  </component>
   <component name="TaskManager">
     <servers />
   </component>
