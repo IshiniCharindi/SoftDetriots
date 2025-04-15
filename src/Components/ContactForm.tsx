@@ -126,7 +126,7 @@ const ContactForm = () => {
                     </div>
 
                     {/* Right Section - Form */}
-                    <div className="p-10 flex flex-col justify-center">
+                    <div className="p-5 sm:p-10 flex flex-col justify-center">
                         <div>
                             <h2 className="text-2xl font-bold text-gray-800 mb-2">Send us a message</h2>
                             <p className="text-gray-600 mb-8">Fill out the form below and we'll get back to you soon</p>
