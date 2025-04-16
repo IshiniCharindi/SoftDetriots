@@ -6,18 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1c8530cb-3401-4666-9151-6a78c4fe7585" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/AboutMiddleCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutMiddleCards.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/BaseHomeAbout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHomeAbout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/CoreValues.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/CoreValues.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/FAQSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FAQSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/HeadSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/HeadSection.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Slider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Styles/headSection.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Styles/headSection.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +24,63 @@
   <component name="ComposerSettings">
     <execution />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2vox0KC2ANQFO7tEPvBiqRUdfcI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "Dev-01",
-    "last_opened_file_path": "F:/languages/Git Repos/Masimplex/MasImplex-backend/MasImplex-backend",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/languages/Git Repos/SoftDetriots",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "F:\\languages\\Git Repos\\SoftDetriots\\node_modules\\typescript\\lib"
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "F:\\languages\\Git Repos\\SoftDetriots\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\languages\Git Repos\SoftDetriots" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\services" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\languages\Git Repos\SoftDetriots" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1c8530cb-3401-4666-9151-6a78c4fe7585" name="Changes" comment="" />
+      <created>1744825003907</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744825003907</updated>
+      <workItem from="1744825004981" duration="4082000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

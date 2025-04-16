@@ -48,7 +48,7 @@ const FaqSection = () => {
                         </h1>
                     </div>
 
-                    <div className="max-w-3xl px-7 mx-auto mt-8 space-y-4 md:mt-16">
+                    <div className="max-w-3xl px-5 mx-auto mt-8 space-y-4 md:mt-16">
                         {faqItems.map((item, index) => (
                             <div key={index} className="transition-all duration-200 bg-white border border-gray-200 shadow-lg cursor-pointer hover:bg-gray-50">
                                 <button

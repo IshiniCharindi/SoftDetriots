@@ -2,7 +2,7 @@ import CountUp from "react-countup";
 
 const BaseHomeAbout = () => {
   return (
-      <section className="container flex h-12 items-center justify-center md:h-32 lg:ml-28">
+      <section className="container flex h-12 items-center justify-center md:h-32 mx-auto">
         <div className="mx-auto my-4 grid w-full max-w-[800px] -translate-y-10 grid-cols-4 divide-x divide-slate-700 bg-white p-2 shadow-lg md:-translate-y-16 md:p-8">
           <div className="flex flex-col items-center justify-center">
             <h1 className="text-center text-sm font-bold text-black sm:text-lg md:text-3xl">

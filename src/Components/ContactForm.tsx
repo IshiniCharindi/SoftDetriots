@@ -27,7 +27,6 @@ const ContactForm = () => {
                 setLoadingCountries(false);
             } catch (error) {
                 console.error("Failed to fetch countries:", error);
-                // Fallback to a basic list if API fails
                 setCountries([
                     "Sri Lanka", "United States", "India", "United Kingdom",
                     "Canada", "Australia", "Germany", "France", "Japan"
@@ -57,14 +56,14 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="bg-gray-50 text-gray-800  py-16 md:px-12 lg:px-24 mt-20">
+        <div className="bg-gray-50 text-gray-800 py-16 md:px-12 lg:px-24 mt-20">
             <div className="container mx-auto">
                 <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
                     Get In Touch
                 </h1>
             </div>
 
-            <div className="max-w-6xl mx-auto px-7 bg-white rounded-xl shadow-lg overflow-hidden mt-10">
+            <div className="max-w-6xl mx-auto px-5 bg-white rounded-xl shadow-lg overflow-hidden mt-10">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-0 min-h-[600px]">
                     <div className="bg-gradient-to-b from-[var(--color-primary)] to-[var(--color-secondary)] p-5 sm:p-10 text-white flex flex-col justify-between relative overflow-hidden">
                         <div className="absolute inset-0 flex items-center justify-center opacity-10">

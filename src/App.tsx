@@ -5,12 +5,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AboutUs from "./Screens/AboutUs.tsx";
 import ContactUs from "./Screens/ContactUs.tsx";
+import ScrollToTop from "./Components/ScrollToTop.tsx";
 
 
 function App() {
 
   return (
       <BrowserRouter basename="/SoftDetriots">
+          <ScrollToTop/>
           <Routes>
               <Route element={<BaseHome/>} path='/'/>
               <Route element={<AboutUs/>} path='/about'/>
