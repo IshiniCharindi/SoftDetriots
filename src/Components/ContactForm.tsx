@@ -158,8 +158,8 @@ const ContactForm = () => {
                                         <label htmlFor="fullName" className="block text-sm font-medium text-gray-700 mb-1">Full Name</label>
                                         <input
                                             type="text"
-                                            id="fullName"
-                                            name="fullName"
+                                            id="fullname"
+                                            name="fullname"
                                             placeholder="John Doe"
                                             value={customer.fullname}
                                             onChange={handleChange}
