@@ -118,7 +118,7 @@ const ContactForm = () => {
                                 </div>
                                 <div className="ml-4">
                                     <p className="text-sm opacity-80">Address</p>
-                                    <p className="font-semibold lg:text-lg sm:text-sm">Negambo, Sri Lanka</p>
+                                    <p className="font-semibold lg:text-lg sm:text-sm">Colombo, Sri Lanka</p>
                                 </div>
                             </div>
                         </div>
