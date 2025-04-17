@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1c8530cb-3401-4666-9151-6a78c4fe7585" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/OurStory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/OurStory.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Screens/BaseHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/BaseHome.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/endpoint.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/endpoint.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/sendMessageQuery.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/sendMessageQuery.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744825003907</updated>
       <workItem from="1744825004981" duration="5866000" />
-      <workItem from="1744898753918" duration="1578000" />
+      <workItem from="1744898753918" duration="2185000" />
     </task>
     <servers />
   </component>
