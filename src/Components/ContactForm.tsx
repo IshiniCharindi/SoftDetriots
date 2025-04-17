@@ -56,7 +56,7 @@ const ContactForm = () => {
     };
 
     return (
-        <div className="bg-gray-50 text-gray-800 py-16 md:px-12 lg:px-24 mt-20">
+        <div className="bg-gray-50 text-gray-800 py-16 md:px-12 lg:px-24 ">
             <div className="container mx-auto">
                 <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
                     Get In Touch

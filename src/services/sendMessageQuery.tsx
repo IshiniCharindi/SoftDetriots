@@ -2,7 +2,7 @@ import { domain, header } from "./endpoint";
 
 
 const sendMessageInfo = async () => {
-    return await domain.get('contact', header)
+    return await domain.post('contact/sendInfo', header)
 }
 
 export {
