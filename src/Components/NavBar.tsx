@@ -2,10 +2,13 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from '../assets/images/logo.png'
 import { Home, Info, Mail } from 'lucide-react';
+import { useLocation } from 'react-router-dom';
 
 
 const NavBar = () => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const location = useLocation();
+    const currentPath = location.pathname;
 
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen((prev) => !prev);
@@ -54,18 +57,36 @@ const NavBar = () => {
 
                     {/* Desktop menu */}
                     <div className="hidden lg:flex space-x-10 text-white items-center mr-10">
-                        <Link to={"/"} className="flex items-center space-x-1 hover:text-[#D2042D]">
+                        <Link
+                            to="/"
+                            className={` font-bold flex items-center space-x-1 hover:text-[#D2042D] ${
+                                currentPath === '/' ? 'text-[#D2042D]' : 'text-white'
+                            }`}
+                        >
                             <Home size={16} />
                             <span>Home</span>
                         </Link>
-                        <Link to={"/about"} className="flex items-center space-x-1 hover:text-[#D2042D]">
+
+                        <Link
+                            to="/about"
+                            className={`font-bold flex items-center space-x-1 hover:text-[#D2042D] ${
+                                currentPath === '/about' ? 'text-[#D2042D]' : 'text-white'
+                            }`}
+                        >
                             <Info size={16} />
                             <span>About Us</span>
                         </Link>
-                        <Link to={"/contact"} className="flex items-center space-x-1 hover:text-[#D2042D]">
+
+                        <Link
+                            to="/contact"
+                            className={`font-bold flex items-center space-x-1 hover:text-[#D2042D] ${
+                                currentPath === '/contact' ? 'text-[#D2042D]' : 'text-white'
+                            }`}
+                        >
                             <Mail size={16} />
                             <span>Contact Us</span>
                         </Link>
+
                     </div>
 
                 </nav>
@@ -75,15 +96,21 @@ const NavBar = () => {
             {isMobileMenuOpen && (
                 <div className="lg:hidden px-4 py-6 bg-[var(--color-secondary)] text-white space-y-4 shadow-md">
                     <div className="flex flex-col space-y-4 items-center justify-center">
-                        <Link to={"/"} className="ml-2 flex items-center space-x-1 hover:text-[#D2042D]">
+                        <Link to={"/"} className={`ml-2 flex items-center space-x-1 hover:text-[#D2042D]  ${
+                            currentPath === '/' ? 'text-[#D2042D]' : 'text-white'
+                        }`}>
                             <Home size={16}/>
                             <span>Home</span>
                         </Link>
-                        <Link to={"/about"} className="ml-2 flex items-center space-x-1 hover:text-[#D2042D]">
+                        <Link to={"/about"} className={`ml - 2 flex items-center space-x-1 hover:text-[#D2042D]  ${
+                            currentPath === '/about' ? 'text-[#D2042D]' : 'text-white'
+                        }`}>
                             <Info size={16}/>
                             <span>About Us</span>
                         </Link>
-                        <Link to={"/contact"} className="ml-2 flex items-center space-x-1 hover:text-[#D2042D]">
+                        <Link to={"/contact"} className={`ml - 2 flex items-center space-x-1 hover:text-[#D2042D]  ${
+                            currentPath === '/contact' ? 'text-[#D2042D]' : 'text-white'
+                        }`}>
                             <Mail size={16}/>
                             <span>Contact Us</span>
                         </Link>
