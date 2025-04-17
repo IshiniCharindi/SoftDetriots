@@ -2,7 +2,7 @@ import ourStory from "../assets/images/ourStory.jpg"
 
 const OurStory = () => {
     return (
-        <div className="mt-20 max-w-6xl mx-auto p-6 md:p-8 bg-white rounded-lg shadow-md flex flex-col md:flex-row gap-8">
+        <div className="mt-5 md:mt-20 max-w-6xl mx-auto p-6 md:p-8 bg-white rounded-lg shadow-md flex flex-col md:flex-row gap-8">
             <div className="md:w-1/2">
                 <div className="border-2 border-gray-200 p-2.5 rounded-lg">
                     <img

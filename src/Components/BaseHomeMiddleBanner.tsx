@@ -15,13 +15,13 @@ const BaseHomeMiddleBanner = (props: any) => {
                     Unlock Digital Success with Soft Detroits
                 </h2>
 
-                <p className="text-white text-lg mb-8">
+                <p className="text-white text-base md:text-lg mb-8">
                     At Soft Detroits, we don’t just build websites or apps, we craft powerful digital solutions designed
                     for growth. Let’s explore your vision, define your goals, and map out a smart strategy together.
-                    <br/><span className="text-gray-200 font-bold text-lg mb-8">Ready to transform your vision into reality?</span>
+                    <br/><span className="text-gray-200 font-bold text-base md:text-lg mb-8">Ready to transform your vision into reality?</span>
                 </p>
 
-                <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">
+                <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 sm:py-3 px-5 sm:px-8 rounded-lg transition duration-300 transform hover:scale-105">
                    <Link to="/contact">Let's talk →</Link>
                 </button>
             </div>
