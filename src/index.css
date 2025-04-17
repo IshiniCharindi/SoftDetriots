@@ -1,9 +1,5 @@
 @import "tailwindcss";
 
-body, html {
-    overflow-x: hidden;
-}
-
 :root {
     --color-primary: #1b388b; /* Tailwind blue-500 */
     --color-secondary: #030713; /* Tailwind green-500 */

@@ -12,7 +12,7 @@ const NavBar = () => {
     };
 
     return (
-        <header className="bg-[var(--color-primary)] fixed top-0 left-0 w-full z-50 shadow-md">
+        <header className="bg-[var(--color-primary)] fixed top-0 left-0 w-[100vw] z-50 shadow-md">
             <div className="px-4 mx-auto sm:px-6 lg:px-8">
                 <nav className="flex items-center justify-between h-14 lg:h-17">
                     <div className="flex-shrink-0">
@@ -53,7 +53,7 @@ const NavBar = () => {
                     </div>
 
                     {/* Desktop menu */}
-                    <div className="hidden lg:flex space-x-10 text-white items-center">
+                    <div className="hidden lg:flex space-x-10 text-white items-center mr-10">
                         <Link to={"/"} className="flex items-center space-x-1 hover:text-[#D2042D]">
                             <Home size={16} />
                             <span>Home</span>
