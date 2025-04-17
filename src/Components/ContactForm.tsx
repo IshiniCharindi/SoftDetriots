@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from "react";
 import logo from '../assets/images/logo.png';
+import { CustomerInterface } from "../Models/Customer";
+import {sendMessageInfo} from "../services/sendMessageQuery"
+import toast from "react-hot-toast";
 
 const ContactForm = () => {
-    const [formData, setFormData] = useState({
-        fullName: "",
+    const [customer, setCustomer] = useState<CustomerInterface>({
+        fullname: "",
         email: "",
         phone: "",
-        country: "",
+        country:"",
         message: "",
-        acceptedPolicy: false,
+
     });
 
     const [countries, setCountries] = useState<string[]>([]);
@@ -44,16 +47,35 @@ const ContactForm = () => {
         const { name, value, type, checked } = e.target as HTMLInputElement;
 
         if (type === "checkbox") {
-            setFormData({ ...formData, [name]: checked });
+            setCustomer(prev => ({ ...prev, [name]: checked }));
         } else {
-            setFormData({ ...formData, [name]: value });
+            setCustomer(prev => ({ ...prev, [name]: value }));
         }
     };
 
-    const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-        e.preventDefault();
-        console.log("Form Data:", formData);
-    };
+    const handleSubmit = async (): Promise<void> => {
+        try {
+            const response = await sendMessageInfo(customer);
+            console.log(response)
+            toast.success(response.data.message);
+
+            // Reset form
+            setCustomer({
+                fullname: "",
+                email: "",
+                phone: "",
+                country:"",
+                message: ""
+            });
+
+        } catch (e) {
+            if (e instanceof Error) {
+                toast.error(e.message);
+            } else {
+                toast.error("An unknown error occurred");
+            }
+        }
+    }
 
     return (
         <div className="bg-gray-50 text-gray-800 py-16 md:px-12 lg:px-24 ">
@@ -139,7 +161,7 @@ const ContactForm = () => {
                                             id="fullName"
                                             name="fullName"
                                             placeholder="John Doe"
-                                            value={formData.fullName}
+                                            value={customer.fullname}
                                             onChange={handleChange}
                                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
                                             required
@@ -153,7 +175,7 @@ const ContactForm = () => {
                                             id="email"
                                             name="email"
                                             placeholder="john@example.com"
-                                            value={formData.email}
+                                            value={customer.email}
                                             onChange={handleChange}
                                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
                                             required
@@ -169,7 +191,7 @@ const ContactForm = () => {
                                             id="phone"
                                             name="phone"
                                             placeholder="+1 (123) 456-7890"
-                                            value={formData.phone}
+                                            value={customer.phone}
                                             onChange={handleChange}
                                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
                                         />
@@ -180,7 +202,7 @@ const ContactForm = () => {
                                         <select
                                             id="country"
                                             name="country"
-                                            value={formData.country}
+                                            value={customer.country}
                                             onChange={handleChange}
                                             className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all appearance-none bg-white bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9ImN1cnJlbnRDb2xvciIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiIGNsYXNzPSJsdWNpZGUgbHVjaWRlLWNoZXZyb24tZG93biI+PHBhdGggZD0ibTYgOSA2IDYgNi02Ii8+PC9zdmc+')] bg-no-repeat bg-[center_right_1rem]"
                                             disabled={loadingCountries}
@@ -204,31 +226,31 @@ const ContactForm = () => {
                                         id="message"
                                         name="message"
                                         rows={5}
-                                        value={formData.message}
+                                        value={customer.message}
                                         onChange={handleChange}
                                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
                                         required
                                     ></textarea>
                                 </div>
 
-                                <div className="flex items-start">
-                                    <div className="flex items-center h-5">
-                                        <input
-                                            id="acceptedPolicy"
-                                            name="acceptedPolicy"
-                                            type="checkbox"
-                                            checked={formData.acceptedPolicy}
-                                            onChange={handleChange}
-                                            className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600"
-                                            required
-                                        />
-                                    </div>
-                                    <div className="ml-3 text-sm">
-                                        <label htmlFor="acceptedPolicy" className="font-medium text-gray-700">
-                                            I agree to the <a href="#" className="text-blue-600 hover:underline">privacy policy</a> and <a href="#" className="text-blue-600 hover:underline">terms of service</a>
-                                        </label>
-                                    </div>
-                                </div>
+                                {/*<div className="flex items-start">*/}
+                                {/*    <div className="flex items-center h-5">*/}
+                                {/*        <input*/}
+                                {/*            id="acceptedPolicy"*/}
+                                {/*            name="acceptedPolicy"*/}
+                                {/*            type="checkbox"*/}
+                                {/*            checked={customer.acceptedPolicy}*/}
+                                {/*            onChange={handleChange}*/}
+                                {/*            className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-600"*/}
+                                {/*            required*/}
+                                {/*        />*/}
+                                {/*    </div>*/}
+                                {/*    <div className="ml-3 text-sm">*/}
+                                {/*        <label htmlFor="acceptedPolicy" className="font-medium text-gray-700">*/}
+                                {/*            I agree to the <a href="#" className="text-blue-600 hover:underline">privacy policy</a> and <a href="#" className="text-blue-600 hover:underline">terms of service</a>*/}
+                                {/*        </label>*/}
+                                {/*    </div>*/}
+                                {/*</div>*/}
 
                                 <button
                                     type="submit"
