@@ -11,7 +11,7 @@ import ScrollToTop from "./Components/ScrollToTop.tsx";
 function App() {
 
   return (
-      <BrowserRouter basename="/SoftDetriots">
+      <BrowserRouter>
           <ScrollToTop/>
           <Routes>
               <Route element={<BaseHome/>} path='/'/>

@@ -74,7 +74,7 @@ const NavBar = () => {
                             }`}
                         >
                             <Info size={16} />
-                            <span>About Us</span>
+                            <span>About us</span>
                         </Link>
 
                         <Link
@@ -84,7 +84,7 @@ const NavBar = () => {
                             }`}
                         >
                             <Mail size={16} />
-                            <span>Contact Us</span>
+                            <span>Contact us</span>
                         </Link>
 
                     </div>
