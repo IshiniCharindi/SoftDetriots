@@ -6,11 +6,30 @@
   <component name="ChangeListManager">
     <list default="true" id="1c8530cb-3401-4666-9151-6a78c4fe7585" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactForm.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/NavBar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/AboutHeadSection.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/AboutHeadSection.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/AppDevelopment.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/AppDevelopment.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/BaseHomeMiddleBanner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/BaseHomeMiddleBanner.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/ContactHeadSection.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ContactHeadSection.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/DesktopDevelopment.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/DesktopDevelopment.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/WebDesign.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/WebDesign.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/banner01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/banner01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/banner02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/banner02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/banner03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/banner03.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/blog1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/blog1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/blog2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/blog3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/blog3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/django.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/django.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/dotnet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/dotnet.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/flutter.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/flutter.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logowithbg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logowithbg.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/nextjs.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/nextjs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/node.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/node.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/ourStory.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ourStory.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/react.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/react.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/reactnative.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/reactnative.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/springboot.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/springboot.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,22 +51,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Dev-01&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/languages/Git Repos/SoftDetriots/src/Styles&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;F:\\languages\\Git Repos\\SoftDetriots\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/languages/Git Repos/SoftDetriots/src/assets/images",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "F:\\languages\\Git Repos\\SoftDetriots\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\assets\images" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\Styles" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\Components" />
       <recent name="F:\languages\Git Repos\SoftDetriots" />
@@ -75,7 +95,12 @@
       <updated>1744825003907</updated>
       <workItem from="1744825004981" duration="5866000" />
       <workItem from="1744898753918" duration="10235000" />
-      <workItem from="1745042540677" duration="3084000" />
+      <workItem from="1745042540677" duration="5625000" />
+      <workItem from="1745210934545" duration="535000" />
+      <workItem from="1745238566384" duration="9000" />
+      <workItem from="1745238680603" duration="3000" />
+      <workItem from="1745238692352" duration="1000" />
+      <workItem from="1745238720417" duration="1090000" />
     </task>
     <servers />
   </component>

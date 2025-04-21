@@ -2,7 +2,6 @@ import React, {useState, useEffect} from "react";
 import logo from '../assets/images/logo.png';
 import {CustomerInterface} from "../Models/Customer";
 import {sendMessageInfo} from "../services/sendMessageQuery"
-import toast from "react-hot-toast";
 import Loader from "./Loader.tsx";
 
 const ContactForm = () => {
