@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8530cb-3401-4666-9151-6a78c4fe7585" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/BaseHome/TeamDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHome/TeamDisplay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/ishini.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ishini.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <workItem from="1745315746865" duration="588000" />
       <workItem from="1745505655969" duration="2100000" />
       <workItem from="1745553453316" duration="1295000" />
-      <workItem from="1746545101258" duration="5715000" />
+      <workItem from="1746545101258" duration="6005000" />
     </task>
     <servers />
   </component>
