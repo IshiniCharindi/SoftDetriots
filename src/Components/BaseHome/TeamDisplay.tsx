@@ -1,17 +1,21 @@
+import ishini from '../../assets/images/ishini.jpg'
 import sajan from '../../assets/images/sajanAbout.jpg'
+import sachindu from '../../assets/images/sachindu.jpg'
+
+
 const TeamDisplay = () => {
     const teamMembers = [
         {
             id: 1,
             name: 'Sachindu Kavishka',
             bio: 'Visionary leader with 15+ years in industry innovation',
-            img: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=60'
+            img: sachindu
         },
         {
             id: 2,
             name: 'Ishini Charindi',
             bio: 'Tech enthusiast building the future one line of code at a time',
-            img: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=60'
+            img: ishini
         },
         {
             id: 3,
