@@ -56,8 +56,8 @@ const BaseHome = () => {
             <BaseHomeAbout/>
             <BannerDetails reverse={true}/>
             <Service/>
-            <TeamDisplay/>
             <BaseHomeMiddleBanner className={"py-10 sm:py-36"}/>
+            <TeamDisplay/>
             <SpecializationSection/>
             <Footer/>
         </div>

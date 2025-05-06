@@ -24,22 +24,15 @@ const TeamDisplay = () => {
     ];
 
     return (
-        <div className="min-h-screen py-16 px-4 sm:px-6 lg:px-8 bg-gray-50">
+        <div data-aos="fade-up" data-aos-offset="200" className="min-h-screen py-16 px-4 sm:px-6 lg:px-8 bg-gray-50 " >
             <div className="max-w-7xl mx-auto">
-                {/* Header */}
-                <div className="text-center mb-16">
-                    <h2 className="text-4xl font-extrabold tracking-tight text-[#1b388b] sm:text-5xl">
+                <div className="text-center mb-10">
+                    <h1 className="mb-8 border-l-8 py-2 pl-2 text-center text-3xl font-bold">
                         Meet Our Team
-                    </h2>
-                    <p className="mt-4 max-w-2xl text-xl text-gray-600 mx-auto">
-                        The brilliant minds behind our success
-                    </p>
-                    <div className="mt-8 flex justify-center">
-                        <div className="w-24 h-1 bg-[#1b388b] rounded-full"></div>
-                    </div>
+                    </h1>
                 </div>
 
-                <div className="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:grid-cols-3">
+                <div className="grid grid-cols-1 gap-7 lg:gap-12 sm:grid-cols-2 md:grid-cols-3">
                     {teamMembers.map((member) => (
                         <div
                             key={member.id}
@@ -78,21 +71,6 @@ const TeamDisplay = () => {
                             </div>
                         </div>
                     ))}
-                </div>
-
-                <div className="mt-20 text-center">
-                    <p className="text-lg text-gray-600 mb-6">
-                        Want to join our amazing team?
-                    </p>
-                    <a
-                        href="#"
-                        className="inline-flex items-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-[#1b388b] hover:bg-[#142a6b] transition-colors duration-300"
-                    >
-                        View Open Positions
-                        <svg className="ml-3 -mr-1 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-                            <path fillRule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-                        </svg>
-                    </a>
                 </div>
             </div>
         </div>
