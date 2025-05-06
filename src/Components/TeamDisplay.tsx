@@ -1,3 +1,4 @@
+import sajan from '../assets/images/sajanAbout.jpg'
 const TeamDisplay = () => {
     const teamMembers = [
         {
@@ -19,7 +20,7 @@ const TeamDisplay = () => {
             name: 'Emma Rodriguez',
             role: 'Marketing Director',
             bio: 'Creative storyteller who connects brands with their audiences',
-            img: 'https://images.unsplash.com/photo-1554151228-14d9def656e4?w=500&auto=format&fit=crop&q=60'
+            img: sajan
         }
     ];
 
