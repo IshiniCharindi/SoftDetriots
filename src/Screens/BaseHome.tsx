@@ -9,6 +9,7 @@ import AOS from "aos";
 import BaseHomeMiddleBanner from "../Components/BaseHomeMiddleBanner.tsx";
 import SpecializationSection from "../Components/SpecializationSection.tsx";
 import { Helmet } from "react-helmet";
+import TeamDisplay from "../Components/TeamDisplay.tsx";
 
 const BaseHome = () => {
     useEffect(() => {
@@ -55,6 +56,7 @@ const BaseHome = () => {
             <BaseHomeAbout/>
             <BannerDetails reverse={true}/>
             <Service/>
+            <TeamDisplay/>
             <BaseHomeMiddleBanner className={"py-10 sm:py-36"}/>
             <SpecializationSection/>
             <Footer/>
