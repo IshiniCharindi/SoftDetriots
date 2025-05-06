@@ -1,4 +1,4 @@
-import "../styles/headSection.css";
+import "../../Styles/headSection.css";
 function HeadSection(props: any) {
     return (
         <div

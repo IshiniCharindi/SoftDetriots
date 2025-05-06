@@ -1,4 +1,4 @@
-import ourStory from "../assets/images/ourStory.jpg"
+import ourStory from "../../assets/images/ourStory.jpg"
 
 const OurStory = () => {
     return (

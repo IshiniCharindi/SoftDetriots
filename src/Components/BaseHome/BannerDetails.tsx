@@ -1,4 +1,4 @@
-import img from "../assets/images/logowithbg.jpg";
+import img from "../../assets/images/logowithbg.jpg";
 import {Link} from "react-router-dom";
 
 interface BannerDetailsProps {

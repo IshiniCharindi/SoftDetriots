@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from "react";
-import logo from '../assets/images/logo.png';
-import {CustomerInterface} from "../Models/Customer";
-import {sendMessageInfo} from "../services/sendMessageQuery"
-import Loader from "./Loader.tsx";
+import logo from '../../assets/images/logo.png';
+import {CustomerInterface} from "../../Models/Customer.tsx";
+import {sendMessageInfo} from "../../services/sendMessageQuery.tsx"
+import Loader from "../Other/Loader.tsx";
 
 const ContactForm = () => {
 

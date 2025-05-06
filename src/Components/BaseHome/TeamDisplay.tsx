@@ -1,24 +1,21 @@
-import sajan from '../assets/images/sajanAbout.jpg'
+import sajan from '../../assets/images/sajanAbout.jpg'
 const TeamDisplay = () => {
     const teamMembers = [
         {
             id: 1,
-            name: 'Sarah Johnson',
-            role: 'CEO & Founder',
+            name: 'Sachindu Kavishka',
             bio: 'Visionary leader with 15+ years in industry innovation',
             img: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=500&auto=format&fit=crop&q=60'
         },
         {
             id: 2,
-            name: 'Michael Chen',
-            role: 'CTO',
+            name: 'Ishini Charindi',
             bio: 'Tech enthusiast building the future one line of code at a time',
             img: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?w=500&auto=format&fit=crop&q=60'
         },
         {
             id: 3,
-            name: 'Emma Rodriguez',
-            role: 'Marketing Director',
+            name: 'Sajan Hirusha',
             bio: 'Creative storyteller who connects brands with their audiences',
             img: sajan
         }
@@ -39,9 +36,9 @@ const TeamDisplay = () => {
                             key={member.id}
                             className="group relative bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2"
                         >
-                            <div className="relative h-64 overflow-hidden">
+                            <div className="relative h-91 overflow-hidden">
                                 <img
-                                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                                    className="w-full h-full object-cover  object-top transition-transform duration-500 group-hover:scale-110"
                                     src={member.img}
                                     alt={member.name}
                                 />

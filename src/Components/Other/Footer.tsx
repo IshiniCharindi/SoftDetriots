@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
-import '../Styles/Footer.css';
-import logo from '../assets/images/logo.png';
+import '../../Styles/Footer.css';
+import logo from '../../assets/images/logo.png';
 
 type FooterLink = string | { text: string; icon: string };
 

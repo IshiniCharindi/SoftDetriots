@@ -1,4 +1,4 @@
-import bgBanner from "../assets/images/BaseHomeMiddleBanner.jpg"
+import bgBanner from "../../assets/images/BaseHomeMiddleBanner.jpg"
 import {Link} from "react-router-dom";
 
 const BaseHomeMiddleBanner = (props: any) => {

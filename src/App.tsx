@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import AboutUs from "./Screens/AboutUs.tsx";
 import ContactUs from "./Screens/ContactUs.tsx";
-import ScrollToTop from "./Components/ScrollToTop.tsx";
+import ScrollToTop from "./Components/Other/ScrollToTop.tsx";
 
 
 function App() {

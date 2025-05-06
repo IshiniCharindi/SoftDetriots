@@ -1,15 +1,15 @@
-import Slider from "../Components/Slider.tsx";
-import Footer from "../Components/Footer.tsx";
-import NavBar from "../Components/NavBar.tsx";
-import BaseHomeAbout from "../Components/BaseHomeAbout.tsx";
-import BannerDetails from "../Components/BannerDetails.tsx";
+import Slider from "../Components/BaseHome/Slider.tsx";
+import Footer from "../Components/Other/Footer.tsx";
+import NavBar from "../Components/Other/NavBar.tsx";
+import BaseHomeAbout from "../Components/BaseHome/BaseHomeAbout.tsx";
+import BannerDetails from "../Components/BaseHome/BannerDetails.tsx";
 import Service from "../Components/Services/Service.tsx";
 import {useEffect} from "react";
 import AOS from "aos";
-import BaseHomeMiddleBanner from "../Components/BaseHomeMiddleBanner.tsx";
-import SpecializationSection from "../Components/SpecializationSection.tsx";
+import BaseHomeMiddleBanner from "../Components/BaseHome/BaseHomeMiddleBanner.tsx";
+import SpecializationSection from "../Components/BaseHome/SpecializationSection.tsx";
 import { Helmet } from "react-helmet";
-import TeamDisplay from "../Components/TeamDisplay.tsx";
+import TeamDisplay from "../Components/BaseHome/TeamDisplay.tsx";
 
 const BaseHome = () => {
     useEffect(() => {

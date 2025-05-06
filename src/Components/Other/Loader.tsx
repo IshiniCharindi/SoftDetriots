@@ -1,6 +1,6 @@
-import '../Styles/Loader.css';
+import '../../Styles/Loader.css';
 
-const CartLoader = ({
+const Loader = ({
                         loading,
                         success,
                         failure,
@@ -43,4 +43,4 @@ const CartLoader = ({
     );
 };
 
-export default CartLoader;
+export default Loader

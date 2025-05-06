@@ -1,12 +1,12 @@
 import React from "react";
-import react from '../assets/images/react.png'
-import node from '../assets/images/node.png'
-import next from '../assets/images/nextjs.png'
-import django from '../assets/images/django.png'
-import dotnet from '../assets/images/dotnet.png'
-import flutter from '../assets/images/flutter.png'
-import reactnative from '../assets/images/reactnative.png'
-import springboot from '../assets/images/springboot.png'
+import react from '../../assets/images/react.png'
+import node from '../../assets/images/node.png'
+import next from '../../assets/images/nextjs.png'
+import django from '../../assets/images/django.png'
+import dotnet from '../../assets/images/dotnet.png'
+import flutter from '../../assets/images/flutter.png'
+import reactnative from '../../assets/images/reactnative.png'
+import springboot from '../../assets/images/springboot.png'
 
 interface CardProps {
     name: string;

@@ -5,7 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8530cb-3401-4666-9151-6a78c4fe7585" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Components/Loader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Loader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/AboutMiddleCards.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutUs/AboutMiddleCards.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BannerDetails.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHome/BannerDetails.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BaseHomeAbout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHome/BaseHomeAbout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BaseHomeMiddleBanner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHome/BaseHomeMiddleBanner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactUs/ContactForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/CoreValues.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutUs/CoreValues.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FAQSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactUs/FAQSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/FeaturesSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Other/FeaturesSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Other/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/HeadSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Other/HeadSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Loader.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Other/Loader.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/NavBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Other/NavBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/OurStory.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/AboutUs/OurStory.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ScrollToTop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Other/ScrollToTop.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Slider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHome/Slider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/SpecializationSection.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHome/SpecializationSection.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/TeamDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHome/TeamDisplay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/AboutUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/AboutUs.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/BaseHome.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/BaseHome.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Screens/ContactUs.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Screens/ContactUs.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +78,10 @@
       <recent name="F:\languages\Git Repos\SoftDetriots\src\services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Components\Other" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Components\BaseHome" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Components\ContactUs" />
+      <recent name="F:\languages\Git Repos\SoftDetriots\src\Components\AboutUs" />
       <recent name="F:\languages\Git Repos\SoftDetriots" />
     </key>
   </component>
@@ -89,7 +114,7 @@
       <workItem from="1745315746865" duration="588000" />
       <workItem from="1745505655969" duration="2100000" />
       <workItem from="1745553453316" duration="1295000" />
-      <workItem from="1746545101258" duration="3239000" />
+      <workItem from="1746545101258" duration="5413000" />
     </task>
     <servers />
   </component>

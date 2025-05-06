@@ -1,10 +1,10 @@
-import OurStory from "../Components/OurStory.tsx";
-import NavBar from "../Components/NavBar.tsx";
-import Footer from "../Components/Footer.tsx";
-import CoreValues from "../Components/CoreValues.tsx";
-import HeadSection from "../Components/HeadSection.tsx";
+import OurStory from "../Components/AboutUs/OurStory.tsx";
+import NavBar from "../Components/Other/NavBar.tsx";
+import Footer from "../Components/Other/Footer.tsx";
+import CoreValues from "../Components/AboutUs/CoreValues.tsx";
+import HeadSection from "../Components/Other/HeadSection.tsx";
 import backgroundImage from "../assets/images/AboutHeadSection.jpg"
-import AboutMiddleCards from "../Components/AboutMiddleCards.tsx";
+import AboutMiddleCards from "../Components/AboutUs/AboutMiddleCards.tsx";
 import { Helmet } from "react-helmet";
 
 const AboutUs = () => {

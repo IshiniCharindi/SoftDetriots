@@ -1,8 +1,8 @@
-import NavBar from "../Components/NavBar.tsx";
-import Footer from "../Components/Footer.tsx";
-import ContactForm from "../Components/ContactForm.tsx";
-import FAQSection from "../Components/FAQSection.tsx";
-import HeadSection from "../Components/HeadSection.tsx";
+import NavBar from "../Components/Other/NavBar.tsx";
+import Footer from "../Components/Other/Footer.tsx";
+import ContactForm from "../Components/ContactUs/ContactForm.tsx";
+import FAQSection from "../Components/ContactUs/FAQSection.tsx";
+import HeadSection from "../Components/Other/HeadSection.tsx";
 import ContactHeadSection from '../assets/images/ContactHeadSection.jpg'
 import {Helmet} from "react-helmet";
 
