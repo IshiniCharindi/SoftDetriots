@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c8530cb-3401-4666-9151-6a78c4fe7585" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ishini.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ishini.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Other/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Other/Footer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/languages/Git Repos/SoftDetriots/src/assets/images",
+    "last_opened_file_path": "F:/languages/Git Repos/SoftDetriots",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -93,7 +94,8 @@
       <workItem from="1745315746865" duration="588000" />
       <workItem from="1745505655969" duration="2100000" />
       <workItem from="1745553453316" duration="1295000" />
-      <workItem from="1746545101258" duration="6005000" />
+      <workItem from="1746545101258" duration="13902000" />
+      <workItem from="1746711630494" duration="306000" />
     </task>
     <servers />
   </component>

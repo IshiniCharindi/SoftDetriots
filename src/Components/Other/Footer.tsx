@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import '../../Styles/Footer.css';
 import logo from '../../assets/images/logo.png';
+import {Link} from "react-router-dom";
 
 type FooterLink = string | { text: string; icon: string };
 
@@ -36,7 +37,8 @@ const Footer = () => {
         },
         {
             title: "Quick Links",
-            links: ["Home", "About Us", "Contact Us"] as FooterLink[]
+            links: ["Home", "About Us", "Contact Us"] as FooterLink[],
+            routes: ["/", "/about","/contact"]
         },
         {
             title: "Contact Details",
@@ -126,12 +128,12 @@ const Footer = () => {
                                                             </span>
                                                         </>
                                                     ) : (
-                                                        <a
-                                                            href="#"
+                                                        <Link
+                                                            to={section.routes?.[i] || "#"}
                                                             className="block py-1 text-white text-sm hover:text-[#D2042D] transition-colors duration-200"
                                                         >
                                                             {link.toString()}
-                                                        </a>
+                                                        </Link>
                                                     )}
                                                 </li>
                                             ))}
