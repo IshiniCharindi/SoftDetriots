@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1c8530cb-3401-4666-9151-6a78c4fe7585" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Other/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Other/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/BaseHome/TeamDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHome/TeamDisplay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/ishini.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ishini.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/sachindu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/sachindu.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,24 +40,24 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "Dev-02",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "F:/languages/Git Repos/SoftDetriots",
+    "last_opened_file_path": "G:/projects/SoftDetriots/SoftDetriots/softdetroits/src/assets/images",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "F:\\languages\\Git Repos\\SoftDetriots\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "G:\\projects\\SoftDetriots\\SoftDetriots\\softdetroits\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\projects\SoftDetriots\SoftDetriots\softdetroits\src\assets\images" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\assets\images" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\Styles" />
       <recent name="F:\languages\Git Repos\SoftDetriots\src\Components" />
       <recent name="F:\languages\Git Repos\SoftDetriots" />
-      <recent name="F:\languages\Git Repos\SoftDetriots\src\services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\languages\Git Repos\SoftDetriots\src\Components\Other" />

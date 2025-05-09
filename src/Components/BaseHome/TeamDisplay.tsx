@@ -8,19 +8,19 @@ const TeamDisplay = () => {
         {
             id: 1,
             name: 'Sachindu Kavishka',
-            bio: 'Visionary leader with 15+ years in industry innovation',
+            bio: 'BSc in Computer Science and Technology graduate from Uva Wellassa University, bringing 5+ years of hands-on experience in leading teams and architecting cutting-edge software solutions.',
             img: sachindu
         },
         {
             id: 2,
-            name: 'Ishini Charindi',
-            bio: 'Tech enthusiast building the future one line of code at a time',
+            name: 'Ishini Dewamiththa',
+            bio: 'BSc in Computer Science and Technology graduate from Uva Wellassa University, bringing 5+ years of hands-on experience in developing robust applications and optimizing system performance.',
             img: ishini
         },
         {
             id: 3,
             name: 'Sajan Hirusha',
-            bio: 'Creative storyteller who connects brands with their audiences',
+            bio: 'BSc in Computer Science and Technology graduate from Uva Wellassa University, bringing 5+ years of hands-on experience in bridging technology and user engagement through innovative digital solutions.',
             img: sajan
         }
     ];
