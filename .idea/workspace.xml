@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1c8530cb-3401-4666-9151-6a78c4fe7585" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/BaseHome/TeamDisplay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/BaseHome/TeamDisplay.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/ishini.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/ishini.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/sachindu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/sachindu.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ContactUs/ContactForm.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ContactUs/ContactForm.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Other/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Other/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Company.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Company.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "Dev-02",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "G:/projects/SoftDetriots/SoftDetriots/softdetroits/src/assets/images",
     "node.js.detected.package.eslint": "true",

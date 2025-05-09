@@ -17,7 +17,7 @@ interface Company {
 // Static data about the company
 const company: Company = {
     name: 'Soft Detroits',
-    email: 'softdetroitservices@gmail.com',
+    email: 'info@softdetroits.com',
     mobile: '+94 77 551 7474',
     social: {
         faceBook: 'https://www.facebook.com/masimpex1?mibextid=ZbWKwL'

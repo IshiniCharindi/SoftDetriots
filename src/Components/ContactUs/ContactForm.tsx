@@ -151,7 +151,7 @@ const ContactForm = () => {
                                     </div>
                                     <div className="ml-4">
                                         <p className="text-sm opacity-80">Email</p>
-                                        <p className="font-semibold lg:text-lg sm:text-sm">softdetroitservices@gmail.com</p>
+                                        <p className="font-semibold lg:text-lg sm:text-sm">info@softdetroits.com</p>
                                     </div>
                                 </div>
 
